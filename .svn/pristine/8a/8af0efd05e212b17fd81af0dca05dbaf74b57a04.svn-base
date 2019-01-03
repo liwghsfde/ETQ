@@ -1,0 +1,257 @@
+<<<<<<< .mine
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/shopping1.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--<![endif]&ndash;&gt;-->
+</head>
+<body >
+<section id="nei">
+    <div id="tu" class="row">
+        <div id="tuX">
+            <div>
+                <img onclick="tu1()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Side-1-2-150x150-c-bottom.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="tu2()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Front-2-2-150x150-c-bottom.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="tu3()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Back-3-2-150x150-c-bottom.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="tu4()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Top-1JPG-2-150x150-c-bottom.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="tu5()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Polido-Black-Same-sole-Sole-5-150x150-c-bottom.jpg" alt="">
+            </div>
+        </div>
+        <div class="divR" onclick="da()" >
+
+            <div id="tuD">
+                <img id="tu11" src="../images/shopping/11.jpg" alt="" onmousewheel="return bigimg(this)">
+                <!--<img id="tu11" src="../images/shopping/11.jpg" onmousewheel="return bigimg()" style="cursor:pointer" />-->
+            </div>
+        </div>
+        <div class="divW col-xs-4">
+            <h1>LB 01 Black Polido</h1>
+            <br>
+            <span>€ 210.74 </span>
+            <br><br>
+            <span>欧盟价格€ 255。欧盟以外免税（21％）。</span><br><br>
+            <span>这款柔美的踝部款式采用高光漆皮制成，结合了经典设计和现代主义特色。</span><br><br>
+            <a href="#miao" class="read1">更多信息</a><br><br>
+            <select name="">
+                <option value="0">黑色Polido</option>
+                <option value="1">粒黑色</option>
+            </select>
+            &nbsp;
+            <select name="">
+                <option value="0">尺寸</option>
+                <option value="1">欧盟35 | 美国2 | 英国1 <a href="">通知</a></option>
+                <option value="1">欧盟36 | 美国3 | 英国2 <a href="">通知</a></option>
+                <option value="1">欧盟37 | 美国4 | 英国3 <a href="">通知</a></option>
+                <option value="1">欧盟38 | 美国5 | 英国4 <a href="">通知</a></option>
+                <option value="1">欧盟39 | 美国6 | 英国5 <a href="">通知</a></option>
+                <option value="1">欧盟40 | 美国7 | 英国6 <a href="">通知</a></option>
+                <option value="1">欧盟41 | 美国8 | 英国7 <a href="">通知</a></option>
+                <option value="1">欧盟43 | 美国9 | 英国8 <a href="">通知</a></option>
+                <option value="1">欧盟44 | 美国10 | 英国9 <a href="">通知</a></option>
+                <option value="1">欧盟44 | 美国11 | 英国10 <a href="">通知</a></option>
+            </select>
+            <br>
+            <br>
+            <div class="addition ">
+                <a id="tian" href="delete.html">添加至购物袋</a>
+            </div>
+            <br><br>
+            <div id="gou">
+                <span>√ &nbsp;请在00:00之前订购，并于11月6日至8日之间收到。</span><br>
+                <span>√ &nbsp;免费有机totebag，有效期至2018年12月1日</span><br>
+                <span>√ &nbsp;全球免费送货</span><br>
+            </div>
+        </div>
+    </div>
+    <a href="" name="miao"></a>
+    <div class="fu"></div>
+    <div id="wenZ">
+        <div id="wen">
+            <h1>描述</h1>
+            <br>
+            <span>ETQ系列的新产品是这款女装款式; 由专利小牛皮制成的靴子。基于坚固的橡胶外底。我们保持其经典风格，色调黑色调和略微粗犷的鞋底，而其时尚的设计增添了一定的优雅。采用奢华小牛皮衬里制成，带来额外的舒适感。</span>
+            <br><br>
+            <ul>
+                <li>手工制作在葡萄牙</li>
+                <li>专利小牛皮鞋面</li>
+                <li>小牛皮衬里</li>
+                <li>坚固耐用的橡胶外底</li>
+            </ul>
+        </div>
+        <div id="xin">
+            <h1>信息</h1>
+            <br>
+            <span>运输</span><br>
+            <span>我们目前在所有订单上提供免费的全球送货。</span><br><br>
+            <span>浆纱</span><br>
+            <span>符合真实尺寸。<a class="read">你需要大小建议吗？</a></span><br><br>
+            <span>退货和换货</span><br>
+            <span>如果您对购买不满意，可以在14天内将其退回给我们进行更换或退款。更多信息</span><br><br>
+            <span>联系</span>
+            <span>联系我们（+31）202 614 615，或发送电子邮件至 </span>
+            <a href="mailto:service@etq-amsterdam.com" class="xianWu">service@etq-amsterdam.com</a>
+        </div>
+    </div>
+    <div class="fu"></div>
+    <div id="tup">
+        <div id="tu1">
+            <img src="../images/da1.jpg" alt="">
+        </div>
+        <div id="tu2">
+            <img src="../images/da2.jpg" alt="">
+        </div>
+        <div id="tu3">
+            <img src="../images/da3.jpg" alt="">
+        </div>
+    </div>
+</section>
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script src="../js/shopping.js"></script>
+</body>
+</html>||||||| .r0
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/shopping1.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--<![endif]&ndash;&gt;-->
+</head>
+<body >
+<%-include('common/nav.ejs')%>
+
+<section id="nei">
+    <div id="tu">
+        <div id="tuX">
+            <div>
+                <img onclick="tu1()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Side-1-2-150x150-c-bottom.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="tu2()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Front-2-2-150x150-c-bottom.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="tu3()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Back-3-2-150x150-c-bottom.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="tu4()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Top-1JPG-2-150x150-c-bottom.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="tu5()" src="../images/shopping/Etq-Amsterdam-LB-01-Polido-Black-Polido-Black-Same-sole-Sole-5-150x150-c-bottom.jpg" alt="">
+            </div>
+        </div>
+        <div class="divR" onclick="da()" >
+
+            <div id="tuD">
+                <img id="tu11" src="../images/shopping/11.jpg" alt="" onmousewheel="return bigimg(this)">
+                <!--<img id="tu11" src="../images/shopping/11.jpg" onmousewheel="return bigimg()" style="cursor:pointer" />-->
+            </div>
+        </div>
+        <div class="divW">
+            <h1>LB 01 Black Polido</h1>
+            <br>
+            <span>€ 210.74 </span>
+            <br><br>
+            <span>欧盟价格€ 255。欧盟以外免税（21％）。</span><br><br>
+            <span>这款柔美的踝部款式采用高光漆皮制成，结合了经典设计和现代主义特色。</span><br><br>
+            <a href="#miao" class="read1">更多信息</a><br><br>
+            <select name="">
+            <option value="0">黑色Polido</option>
+            <option value="1">粒黑色</option>
+            </select>
+            &nbsp;
+            <select name="">
+                <option value="0">尺寸</option>
+                <option value="1">欧盟36 | 美国3 | 英国2 <a href="">通知</a></option>
+                <option value="1">欧盟37 | 美国4 | 英国3 <a href="">通知</a></option>
+                <option value="1">欧盟38 | 美国5 | 英国4 <a href="">通知</a></option>
+                <option value="1">欧盟39 | 美国6 | 英国5 <a href="">通知</a></option>
+            </select>
+            <br>
+            <br>
+            <div class="addition ">
+                <a id="tian" href="delete.html">添加至购物袋</a>
+            </div>
+            <br><br>
+            <div id="gou">
+            <span>√ &nbsp;请在00:00之前订购，并于11月6日至8日之间收到。</span><br>
+            <span>√ &nbsp;免费有机totebag，有效期至2018年12月1日</span><br>
+            <span>√ &nbsp;全球免费送货</span><br>
+            </div>
+        </div>
+    </div>
+    <a href="" name="miao"></a>
+    <div class="fu"></div>
+    <div id="wenZ">
+        <div id="wen">
+            <h1>描述</h1>
+            <br>
+            <span>ETQ系列的新产品是这款女装款式; 由专利小牛皮制成的靴子。基于坚固的橡胶外底。我们保持其经典风格，色调黑色调和略微粗犷的鞋底，而其时尚的设计增添了一定的优雅。采用奢华小牛皮衬里制成，带来额外的舒适感。</span>
+            <br><br>
+            <ul>
+                <li>手工制作在葡萄牙</li>
+                <li>专利小牛皮鞋面</li>
+                <li>小牛皮衬里</li>
+                <li>坚固耐用的橡胶外底</li>
+            </ul>
+        </div>
+        <div id="xin">
+            <h1>信息</h1>
+            <br>
+            <span>运输</span><br>
+            <span>我们目前在所有订单上提供免费的全球送货。</span><br><br>
+            <span>浆纱</span><br>
+            <span>符合真实尺寸。<a class="read">你需要大小建议吗？</a></span><br><br>
+            <span>退货和换货</span><br>
+            <span>如果您对购买不满意，可以在14天内将其退回给我们进行更换或退款。更多信息</span><br><br>
+            <span>联系</span>
+            <span>联系我们（+31）202 614 615，或发送电子邮件至 </span>
+                <a href="mailto:service@etq-amsterdam.com" class="xianWu">service@etq-amsterdam.com</a>
+        </div>
+    </div>
+    <div class="fu"></div>
+    <div id="tup">
+        <div id="tu1">
+            <img src="../images/da1.jpg" alt="">
+        </div>
+        <div id="tu2">
+            <img src="../images/da2.jpg" alt="">
+        </div>
+        <div id="tu3">
+            <img src="../images/da3.jpg" alt="">
+        </div>
+    </div>
+</section>
+<%-include('common/yewei.ejs')%>
+
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/shopping.js"></script>
+</body>
+</html>>>>>>>> .r199

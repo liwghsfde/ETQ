@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/delete1.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--<![endif]&ndash;&gt;-->
+</head>
+<body>
+<h1 id="dd" style="display: none"><%=id%></h1>
+<%-include('common/nav.ejs')%>
+<section id="nei">
+    <div><h1>你的包</h1></div>
+    <br>
+    <br>
+    <div id="nei1">
+        <a href="newCollection.html" class="xianWu"><span><</span> &nbsp;&nbsp;继续购物 </a>
+    </div>
+    <form id="form">
+        <table id="table">
+            <thead>
+            <tr>
+                <th width="25%">产品</th>
+                <th width="10%">颜色</th>
+                <th width="20%">尺寸</th>
+                <th width="15%">QTY</th>
+                <th width="7%"></th>
+                <th width="8%">单价</th>
+            </tr>
+            </thead>
+            <tbody id="ta">
+            <!--<tr>-->
+                <!--<td>-->
+                    <!--<img src="../images/gou01.jpg" alt="">-->
+                    <!--&nbsp;&nbsp; &nbsp;&nbsp;<span>CB 01黑色</span></td>-->
+                <!--<td>黑色</td>-->
+                <!--<td>欧盟39 | 美国6 | 英国5</td>-->
+                <!--<td>-->
+                    <!--<select>-->
+                        <!--<option value="0">1</option>-->
+                        <!--<option value="1">2</option>-->
+                    <!--</select>-->
+                <!--</td>-->
+                <!--<td><a  class="xianWu">删除</a></td>-->
+                <!--<td>€ 429.75</td>-->
+            <!--</tr>-->
+            </tbody>
+        </table>
+    </form>
+    <div class="fu"></div>
+    <div id="you">
+        <div class="zuo">
+            <input onclick="you()" type="checkbox" style="width: 20px;height: 20px"></input>
+            &nbsp; <span>我有优惠券代码</span>
+            <br><br>
+            <div class="fei">
+                <input class="qq"  placeholder="Coupon code">
+                <button type="button">应用</button>
+            </div>
+        </div>
+        <div class="mian">
+            <table id="fu" >
+                <!--<tr class="tr1">-->
+                    <!--<td class="da" height="60px"><input name="xuan" style="width: 20px;height: 20px" type="radio" checked="checked"><span>&nbsp;&nbsp; DPD / FedEx - 免费送货</span>-->
+                        <!--<br>-->
+                        <!--<input onclick="dan()" name="xuan" style="width: 20px;height: 20px" type="radio"><span>&nbsp;&nbsp; DPD / FedEx - 标准运费：</span>-->
+                    <!--</td>-->
+                    <!--<td>-->
+                        <!--<span class="qq">免费</span><br>-->
+                        <!--<span class="qq">￥15</span>-->
+                    <!--</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td><span><br></span></td>-->
+                <!--</tr>-->
+            </table>
+            <table id="fuk">
+                <!--<tr>-->
+                    <!--<td colspan="2" class="xian"></td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td height="40px" width="80%">小计</td>-->
+                    <!--<td style="text-align: right" >￥ 429.75</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td colspan="2" class="xian"></td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td height="40px">总</td>-->
+                    <!--<td style="text-align: right">￥ 429.75</td>-->
+                <!--</tr>-->
+            </table>
+            <br><br>
+            <input onclick="dindan()" type="button" value="付款" class="cha" >
+        </div>
+    </div>
+</section>
+<%-include('common/yewei.ejs')%>
+<script src="../bootstrap-3.3.5-dist/js/jquery-1.11.3.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/delete.js"></script>
+<script>
+
+
+    window.onload=function () {
+        www();
+    }
+
+    var map;
+    function www() {
+        $.ajax({
+            type: "post",
+            url: "/gouwu.do",
+            data: {//传参
+                id:$("#dd").text()
+            },
+            success: function (data) {
+                document.getElementById("ta").innerHTML = ""
+                for (var i = 0; i < data.length; i++) {
+                              map=data[i].img
+                    document.getElementById("ta").innerHTML += "<tr>\n" +
+                        "                <td>\n" +
+                        "                    <img id=\"tu\" src=\"" + data[i].img + "\" alt=\"\">\n" +
+                        "                    &nbsp;&nbsp; &nbsp;&nbsp;<span id=\"name\">" + data[i].p_name + "</span></td>\n" +
+                        "                <td id=\"yanSe\">" + data[i].p_color + "</td>\n" +
+                        "                <td id=\"daXiao\">" + data[i].p_size + "</td>\n" +
+                        "                <td>\n" +
+                        "                    <select  onclick='xuan()' id=\"shu\">\n" +
+                        "                        <option value=\"0\">1</option>\n" +
+                        "                        <option value=\"1\">2</option>\n" +
+                        "                        <option value=\"2\">3</option>\n" +
+                        "                        <option value=\"3\">4</option>\n" +
+                        "                        <option value=\"4\">5</option>\n" +
+                        "                        <option value=\"5\">6</option>\n" +
+                        "                        <option value=\"6\">7</option>\n" +
+                        "                        <option value=\"7\">8</option>\n" +
+                        "                        <option value=\"8\">9</option>\n" +
+                        "                    </select>\n" +
+                        "                </td>\n" +
+                        "                <td><a onclick='shang()' class=\"xianWu\">删除</a></td>\n" +
+                        "                <td id=\"danJia\">￥" + data[i].p_price + "</td>\n" +
+                        "            </tr>"
+                    var qqq = document.getElementById("danJia").innerText;
+
+                            document.getElementById("fu").innerHTML ="<tr class=\"tr1\">\n" +
+                                "                    <td class=\"da\" height=\"60px\">" +
+                                "                        <input onclick=\"dd()\" name=\"xuan\" style=\"width: 20px;height: 20px\" type=\"radio\" checked=\"checked\"><span>&nbsp;&nbsp; DPD / FedEx - 免费送货</span>\n" +
+                                "                        <br>\n" +
+                                "                        <input onclick=\"d()\" name=\"xuan\" style=\"width: 20px;height: 20px\" type=\"radio\"><span>&nbsp;&nbsp; DPD / FedEx - 标准运费：</span>\n" +
+                                "                    </td>\n" +
+                                "                    <td style=\"text-align: right\" >\n" +
+                                "                        <span  class=\"qq\" >免费</span><br>\n" +
+                                "                        <span class=\"qq\">￥15</span>\n"
+                                "                    </td>\n" +
+                                "                </tr>\n" +
+                                "                <tr>\n" +
+                                "                    <td><span><br></span></td>\n" +
+                                "                </tr>"
+
+
+                    document.getElementById("fuk").innerHTML ="<tr>\n" +
+                        "                    <td colspan=\"2\" class=\"xian\"></td>\n" +
+                        "                </tr>\n" +
+                        "                <tr>\n" +
+                        "                    <td height=\"40px\" width=\"80%\">小计</td>\n" +
+                        "                    <td style=\"text-align: right\" >￥" + data[i].p_price + "</td>\n" +
+                        "                </tr>\n" +
+                        "                <tr>\n" +
+                        "                    <td colspan=\"2\" class=\"xian\"></td>\n" +
+                        "                </tr>\n" +
+                        "                <tr>\n" +
+                        "                    <td height=\"40px\">总</td>\n" +
+                        "                    <td id=\"zongJia\" style=\"text-align: right\">￥" + data[i].p_price + "</td>\n" +
+                        "                </tr>"
+                }
+            }
+        })
+    }
+    var a=0
+    function dd(){
+         a=0
+        $.ajax({
+            type: "post",
+            url: "/gouwu.do",
+            data: {//传参
+                id:$("#dd").text()
+            },
+            success: function (data) {
+
+                // document.getElementById("ta").innerHTML = ""
+                for (var i = 0; i < data.length; i++) {
+                    var c=$("#shu option:selected").val()
+                    var r=parseInt(c)+1
+                    var b= (parseInt(data[i].p_price)*r)
+
+                    document.getElementById("fuk").innerHTML ="<tr>\n" +
+                        "                    <td colspan=\"2\" class=\"xian\"></td>\n" +
+                        "                </tr>\n" +
+                        "                <tr>\n" +
+                        "                    <td height=\"40px\" width=\"80%\">小计</td>\n" +
+                        "                    <td style=\"text-align: right\" >￥" + b+ "</td>\n" +
+                        "                </tr>\n" +
+                        "                <tr>\n" +
+                        "                    <td colspan=\"2\" class=\"xian\"></td>\n" +
+                        "                </tr>\n" +
+                        "                <tr>\n" +
+                        "                    <td height=\"40px\">总</td>\n" +
+                        "                    <td id=\"zongJia\" style=\"text-align: right\">￥" + b + "</td>\n" +
+                        "                </tr>"
+                }
+            }
+        })
+    }
+
+    function d(){
+        a=1
+        $.ajax({
+            type: "post",
+            url: "/gouwu.do",
+            data: {//传参
+                id:$("#dd").text()
+            },
+            success: function (data) {
+                // document.getElementById("ta").innerHTML = ""
+                for (var i = 0; i < data.length; i++) {
+                     var c=$("#shu option:selected").val()
+                    var r=parseInt(c)+1
+                    var b= (parseInt(data[i].p_price)*r)+15
+
+                document.getElementById("fuk").innerHTML ="<tr>\n" +
+                    "                    <td colspan=\"2\" class=\"xian\"></td>\n" +
+                    "                </tr>\n" +
+                    "                <tr>\n" +
+                    "                    <td height=\"40px\" width=\"80%\">小计</td>\n" +
+                    "                    <td style=\"text-align: right\" >￥" + b + "</td>\n" +
+                    "                </tr>\n" +
+                    "                <tr>\n" +
+                    "                    <td colspan=\"2\" class=\"xian\"></td>\n" +
+                    "                </tr>\n" +
+                    "                <tr>\n" +
+                    "                    <td height=\"40px\">总</td>\n" +
+                    "                    <td id=\"zongJia\" style=\"text-align: right\">￥" + b + "</td>\n" +
+                    "                </tr>"
+             }
+            }
+        })
+    }
+
+    function xuan() {
+        if (a == 0) {
+            dd()
+        } else if (a == 1) {
+            a = 0;
+            d()
+        }
+    }
+
+    function shang() {
+        $.ajax({
+            type: "post",
+            url: "/gouwu.do",
+            data: {//传参
+                id:$("#dd").text()
+            },
+            success: function (data) {
+                document.getElementById("ta").innerHTML =""
+                document.getElementById("fu").innerHTML =""
+                document.getElementById("fuk").innerHTML =""
+            }
+    })
+    }
+
+function dindan() {
+    /**
+     *
+     * 获取当前时间
+     */
+    function getNow(s) {
+        return s < 10 ? '0' + s: s;
+    }
+
+    var myDate = new Date();
+    //获取当前年
+    var year=myDate.getFullYear();
+    //获取当前月
+    var month=myDate.getMonth()+1;
+    //获取当前日
+    var date=myDate.getDate();
+    var h=myDate.getHours();       //获取当前小时数(0-23)
+    var m=myDate.getMinutes();     //获取当前分钟数(0-59)
+    var s=myDate.getSeconds();
+
+    var now=year+'-'+getNow(month)+"-"+getNow(date)+" "+getNow(h)+':'+getNow(m)+":"+getNow(s);
+    var random=Math.random();
+    random=parseInt(Math.random()*1000000000+999999999)
+
+    $.ajax({
+        type: "post",
+        url: "/dindan.do",
+        data: {//传参
+            id:$("#dd").text(),
+            img:map,
+            name:document.getElementById("name").innerText,
+            yanSe:document.getElementById("yanSe").innerText,
+            daXiao:document.getElementById("daXiao").innerText,
+            shu:parseInt($("#shu option:selected").val())+1,
+            danJia:document.getElementById("danJia").innerText,
+            zongJia:document.getElementById("zongJia").innerText,
+            shiJian:now,
+            din:random,
+            user_id:$("#user_id").text()
+        },
+        success:function (data) {
+            $(window).attr('location','/dingdan.do?id='+data[0].user_id);
+        }
+       })
+    }
+
+</script>
+</body>
+</html>

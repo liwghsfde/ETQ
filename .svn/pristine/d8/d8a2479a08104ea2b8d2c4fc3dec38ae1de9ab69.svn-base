@@ -1,0 +1,70 @@
+section{
+    padding-top: 100px;
+}
+.Read{
+    font-size: 1.4rem;
+    font-family: Graphik,sans-serif;
+    font-weight: normal;
+    color: #3f3f3f;
+    padding-top:10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    line-height: 1.8;
+}
+.js{
+    font-family: Graphik,sans-serif;
+    font-weight: normal;
+    color: #3f3f3f;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 20px;
+    line-height: 1.8;
+}
+.Read1{
+    font-size: 3rem;
+    font-family: Graphik,sans-serif;
+    font-weight: normal;
+    color: #3f3f3f;
+    padding-top:100px;
+    padding-left: 100px;
+    padding-right: 20px;
+    line-height: 1.8;
+}
+.LT{
+    float: left;
+}
+.MT{
+    font-size: 1.4rem;
+    font-family: Graphik,sans-serif;
+    font-weight: normal;
+    color: #3f3f3f;
+    padding-top:30px;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+.bk-top2{
+    padding-top: 50px;
+}
+.bk-top{
+    padding-top: 150px;
+}
+.bk-smtop1{
+    padding-top: 550px;
+}
+.MT2{
+    font-size: 1.4rem;
+    font-family: Graphik,sans-serif;
+    font-weight: normal;
+    color: #3f3f3f;
+    padding-top:30px;
+    padding-left: 220px;
+    padding-right: 50px;
+    line-height: 1.8;
+}
+.fontJianjie1{
+    text-align: center;
+    line-height: 1.8;
+}
+.bk-bot{
+    padding-bottom: 50px;
+}

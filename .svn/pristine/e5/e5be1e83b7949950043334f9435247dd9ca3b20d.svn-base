@@ -1,0 +1,43 @@
+const dbpool=require("../config/dbpoolconfig");
+const userModel={
+    Aa(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("select * from goods_pic where pic_num=1",
+                params,
+                (err,data)=>{
+                resolve(data);
+            })
+        })
+    },
+    Goodsname(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT g_n_id AS a,(SELECT g_name FROM goods_name WHERE a=g_n_id) AS g_name FROM goods_pic WHERE pic_num=1",
+                    params,
+                    (err,data)=>{
+                   resolve(data);
+                  }
+                )
+        })
+    },
+    Goodscolor(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT g_c_id AS b,(SELECT color_name FROM goods_color WHERE b=g_c_id) AS g_color FROM goods_pic WHERE pic_num=1",
+                params,
+                (err,data)=>{
+                resolve(data)
+                })
+        })
+    },
+    Goodsprice(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT g_n_id AS c,g_c_id AS d,(SELECT price FROM goods WHERE c=g_n_id AND g_z_id=1 AND d=g_c_id GROUP BY price) AS g_price FROM goods_pic WHERE pic_num=1",
+                params,
+                (err,data)=>{
+                    resolve(data)
+                })
+        })
+    }
+
+};
+
+module.exports=userModel;

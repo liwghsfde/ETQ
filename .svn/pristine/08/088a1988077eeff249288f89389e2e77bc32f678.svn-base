@@ -1,0 +1,38 @@
+const db=require("../config/dbpoolconfig");
+const  storeDao= {
+    DaoAll(params,callback){
+        db.connect("select * from stores",
+            params,(err,data)=>{
+                callback(data);
+            })
+    },
+    //=====总页
+    DaoTotalPages(params,callback) {
+        let pageCount = 8;
+        db.connect("select count(*) as totalcount from stores",
+            params, (err, data) => {
+                console.log(data[0].totalcount+"==============");
+                let result = Math.ceil(data[0].totalcount / pageCount);
+                // console.log(result+"------------");
+                result = String(result);
+                // console.log(typeof result);
+                callback(result);
+            })
+    },
+    //每页显示多少信息
+    Daolines(params,callback) {
+        db.connect("select * from stores limit ?,?",
+            params, (err, data) => {
+                // console.log(data+"11111111111");
+                callback(data);
+            })
+    },
+    Daoliness(params,callback) {
+        db.connect("select * from stores where 1=1 and sheng LIKE \"深圳市\" AND shi=\"深圳市\" AND qu=\"罗湖区\" limit ?,?",
+            params, (err, data) => {
+                console.log(data+"11111111111");
+                callback(data);
+            })
+    }
+};
+module.exports= storeDao;

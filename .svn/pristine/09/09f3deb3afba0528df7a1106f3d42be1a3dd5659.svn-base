@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/delete1.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--<![endif]&ndash;&gt;-->
+</head>
+<body>
+<h1 id="dd" style="display: none"><%=id%></h1>
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-md-6">
+            <span style="font-size: 26px;font-weight: bolder;z-index: 999;position: relative" class="baibai">E T Q .</span>
+            <button class="link-1 xiahua" >
+                <a href="../html/newCollection.html" class="xianWu">
+                    <span class="thin1 xinshoucang yetouwenzi baibai">新收藏</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua" >
+                <a href="../html/newCollection.html" class="xianWu">
+                    <span class="thin1 yetouwenzi baibai">永久收藏</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua">
+                <a href="../html/page1.html" class="xianWu">
+                    <span class="thin1 qikan yetouwenzi baibai">期刊</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua">
+                <a href="../html/productCustomization.html" class="xianWu">
+                    <span class="thin1  yetouwenzi baibai">私人定制</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua">
+                <a href="../html/theDesigner.html" class="xianWu">
+                    <span class="thin1  yetouwenzi baibai">品牌设计师</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua">
+                <a href="../html/storesETQ.html" class="xianWu">
+                    <span class="thin1 x yetouwenzi baibai">门店查询</span>
+                </a>
+            </button>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <span style="margin-left: 50px "></span>
+            <button class="link-1 xiahua">
+                <a href="#" class="xianWu sousuo">
+                    <span class="thin1 yetouwenzi  baibai">搜索</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua">
+                <a href="#" class="xianWu">
+                    <span class="thin1 yetouwenzi bangzhu baibai">帮助</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua">
+                <a href="../html/login.html" class="xianWu">
+                    <span class="thin1 yetouwenzi user baibai">我的账户</span>
+                </a>
+            </button>
+            <button id="gouwuche" onclick="window.location.href='../html/delete.html'" >0</button>
+        </div>
+        <div class="row zicaidan ">
+            <div class="row one">
+                <div class="col-md-3">
+                    <div class="oneimg1 oneimg"></div>
+                    <button class="link-1 xiahua dd" >
+                        <a href="../html/newCollection.html" class="xianWu">
+                            <span class="thin1">店铺男装</span>
+                        </a>
+                    </button>
+                    <p>店铺全球送货</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="oneimg2 oneimg"></div>
+                    <button class="link-1 xiahua dd" >
+                        <a href="../html/newCollection.html" class="xianWu ">
+                            <span class="thin1">店铺女装</span>
+                        </a>
+                    </button>
+                    <p>店铺全球送货</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="oneimg3 oneimg"></div>
+                    <button class="link-1 xiahua dd" >
+                        <a href="../html/newCollection.html" class="xianWu">
+                            <span class="thin1">永久收藏</span>
+                        </a>
+                    </button>
+                    <p>店铺全球送货</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="oneimg4 oneimg"></div>
+                    <button class="link-1 xiahua dd" >
+                        <a href="../html/newCollection.html" class="xianWu">
+                            <span class="thin1">切尔西靴子</span>
+                        </a>
+                    </button>
+                    <p>店铺全球送货</p>
+                </div>
+            </div>
+            <div class="row two">
+                <div class="col-md-3">
+                    <div class="twoimg1 twoimg"></div>
+                    <button class="link-1 xiahua dd" >
+                        <a href="../html/page2.html" class="xianWu">
+                            <span class="thin1">我们的永久收藏解释</span>
+                        </a>
+                    </button>
+                    <p>2月18日</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="twoimg2 twoimg"></div>
+                    <button class="link-1 xiahua dd" >
+                        <a href="../html/page1-bk2-3.html" class="xianWu">
+                            <span class="thin1">限时优惠：免费totebag</span>
+                        </a>
+                    </button>
+                    <p>2018年10月30日</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="twoimg3 twoimg"></div>
+                    <button class="link-1 xiahua dd" >
+                        <a href="../html/page1-bk2-2.html" class="xianWu">
+                            <span class="thin1">材质：防水正绒面革</span>
+                        </a>
+                    </button>
+                    <p>2018年8月17日</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="twoimg4 twoimg"></div>
+                    <button class="link-1 xiahua dd" >
+                        <a href="../html/page1-bk1-2.html" class="xianWu">
+                            <span class="thin1">秋季天气的基本风格</span>
+                        </a>
+                    </button>
+                    <p>2018年10月16日</p>
+                </div>
+            </div>
+        </div>
+        <div class="row search">
+            <div class="row">
+                <button class="end" style="position: absolute;z-index: 999">X</button>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <br>
+                    <br>
+                    <input type="text" placeholder="开始输入你要找的东西" class="sousuokuang">
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-5">
+                    <div class="jianyik">
+                        <p style="font-size: 20px;margin-left: 24px">建议</p>
+                        <button class="link-1 xiahua aa" >
+                            <a href="#" class="xianWu">
+                                <span class="thin1">低1</span>
+                            </a>
+                        </button>
+                        <br>
+                        <button class="link-1 xiahua aa" >
+                            <a href="#" class="xianWu">
+                                <span class="thin1">中2</span>
+                            </a>
+                        </button>
+                        <br>
+                        <button class="link-1 xiahua aa" >
+                            <a href="#" class="xianWu">
+                                <span class="thin1">低4</span>
+                            </a>
+                        </button>
+                        <br>
+                        <button class="link-1 xiahua aa" >
+                            <a href="#" class="xianWu">
+                                <span class="thin1">低3</span>
+                            </a>
+                        </button>
+                        <br>
+                        <button class="link-1 xiahua aa" >
+                            <a href="#" class="xianWu">
+                                <span class="thin1">涡流</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row help">
+            <div class="row">
+                <button class="end" style="position: absolute;z-index: 999">X</button>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 cc">
+                    <p style="font-size: 22px">联系</p>
+                    <button class="link-1 xiahua">
+                        <a href="#" class="demo1 xianWu">
+                            <span class="thin1">电邮我们</span>
+                        </a>
+                    </button>
+                    <br>
+                    <button class="link-1 xiahua">
+                        <a href="#" class="xianWu">
+                            +31（0）202 615 614
+                        </a>
+                    </button>
+                    <p>目前发货到中国</p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2 cc">
+                    <a href="../html/information.html">
+                        <p style="font-size: 22px">信息</p>
+                    </a>
+
+                    <button class="link-1 xiahua">
+                        <a href="../html/songhuo.html" class="demo1 xianWu">
+                            <span class="thin1">送货信息</span>
+                        </a>
+                    </button>
+                    <br>
+                    <button class="link-1 xiahua">
+                        <a href="../html/tuihuo.html" class="demo1 xianWu" >
+                            <span class="thin1">退货和换货</span>
+                        </a>
+                    </button>
+                    <br>
+                    <button class="link-1 xiahua">
+                        <a href="../html/chima.html" class="demo1 xianWu">
+                            <span class="thin1">尺码指南</span>
+                        </a>
+                    </button>
+                    <br>
+                    <button class="link-1 xiahua">
+                        <a href="../html/pifa.html" class="demo1 xianWu">
+                            <span class="thin1">批发和陈列室</span>
+                        </a>
+                    </button>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2 cc">
+                    <a href="../html/wenti.html">
+                        <p style="font-size: 22px">经常问的问题</p>
+                    </a>
+                    <button class="link-1 xiahua">
+                        <a href="../html/wenti.html" class="demo1">
+                            <span class="thin1">我需要一个帐户来下订单吗？</span>
+                        </a>
+                    </button>
+                    <br>
+                    <button class="link-1 xiahua">
+                        <a href="../html/tuihuo.html" class="demo1">
+                            <span class="thin1">我如何退货或换货？</span>
+                        </a>
+                    </button>
+                    <br>
+
+                    <button class="link-1 xiahua">
+                        <a href="../html/wenti.html" class="demo1">
+                            <span class="thin1">你送货到我的国家吗？</span>
+                        </a>
+                    </button>
+                    <br>
+
+                    <button class="link-1 xiahua">
+                        <a href="../html/wenti.html" class="demo1">
+                            <span class="thin1">交货费用是多少？</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--<div class="login">-->
+        <!--<form action="">-->
+        <!--<div class="loginson">-->
+        <!--<input type="text" placeholder="账号*">-->
+        <!--<input type="text" placeholder="密码*">-->
+        <!--<br>-->
+        <!--<br>-->
+        <!--<a href="../html/zhaohui.html">忘记密码?</a>-->
+        <!--<hr width="250px">-->
+        <!--<button onclick="window.location.href='../html/delete.html'" >注册</button>-->
+        <!--<button onclick="window.location.href='../html/login.html'" >登陆</button>-->
+        <!--</div>-->
+        <!--</form>-->
+        <!--</div>-->
+    </div>
+</div>
+<section id="nei">
+    <div><h1>你的包</h1></div>
+    <br>
+    <br>
+    <div id="nei1">
+        <a href="newCollection.html" class="xianWu"><span><</span> &nbsp;&nbsp;继续购物 </a>
+    </div>
+    <form id="form">
+        <table id="table">
+            <thead>
+            <tr>
+                <th width="25%">产品</th>
+                <th width="10%">颜色</th>
+                <th width="20%">尺寸</th>
+                <th width="15%">QTY</th>
+                <th width="7%"></th>
+                <th width="8%">价钱</th>
+            </tr>
+            </thead>
+            <tbody id="ta">
+            <!--<tr>-->
+                <!--<td>-->
+                    <!--<img src="../images/gou01.jpg" alt="">-->
+                    <!--&nbsp;&nbsp; &nbsp;&nbsp;<span>CB 01黑色</span></td>-->
+                <!--<td>黑色</td>-->
+                <!--<td>欧盟39 | 美国6 | 英国5</td>-->
+                <!--<td>-->
+                    <!--<select>-->
+                        <!--<option value="0">1</option>-->
+                        <!--<option value="1">2</option>-->
+                    <!--</select>-->
+                <!--</td>-->
+                <!--<td><a  class="xianWu">删除</a></td>-->
+                <!--<td>€ 429.75</td>-->
+            <!--</tr>-->
+            </tbody>
+        </table>
+    </form>
+    <div class="fu"></div>
+    <div id="you">
+        <div class="zuo">
+            <input onclick="you()" type="checkbox" style="width: 20px;height: 20px"></input>
+            &nbsp; <span>我有优惠券代码</span>
+            <br><br>
+            <div class="fei">
+                <input class="qq"  placeholder="Coupon code">
+                <button type="button">应用</button>
+            </div>
+        </div>
+        <div class="mian">
+            <table >
+                <tr class="tr1">
+                    <td class="da" height="50px"><input name="xuan" style="width: 20px;height: 20px" type="radio" checked="checked"><span>&nbsp;&nbsp; DPD / FedEx - 免费送货</span>
+                        <br>
+                        <input name="xuan" style="width: 20px;height: 20px" type="radio"><span>&nbsp;&nbsp; DPD / FedEx - 标准运费：</span>
+                    </td>
+                    <td>
+                        <span class="qq">免费</span><br>
+                        <span class="qq">￥15</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span><br></span></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="xian"></td>
+                </tr>
+                <tr>
+                    <td height="40px">小计</td>
+                    <td>￥ 429.75</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="xian"></td>
+                </tr>
+                <tr>
+                    <td height="40px">总</td>
+                    <td>￥ 429.75</td>
+                </tr>
+            </table>
+            <br><br>
+
+            <input type="button" value="查看" class="cha">
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="wei">
+        <div class="guan">
+            <span class="guanYu">关于</span>
+            <br>
+            <br>
+            <span class="etq">ETQ成立于2010年，位于阿姆斯特丹，在消除过度配饰品牌的心态下，主要致力于让产品质量不言而喻。<a href="readMore.html" class="read">阅读更多</a> </span>
+        </div>
+        <div class="di">
+            <span class="diZhi">地址</span>
+            <br>
+            <br>
+            <span class="singel">Singel 459
+            <br> 1012 WP阿姆斯特丹
+            <br> 荷兰</span>
+        </div>
+        <div class="lian">
+            <span class="lianXi">联系</span>
+            <br>
+            <br>
+            <a href="mailto:info@etqstore.com" class="xianWu">info@etqstore.com</a>
+            <br>
+            <a href="tel:+31（0）20 26 13 815" class="xianWu" >+31（0）20 26 13 815</a>    </div>
+        <div class="xin">
+            <span class="xinXi">信息</span>
+            <br>
+            <br>
+            <a href="songhuo.html" class="xianWu">送货信息</a><br>
+            <a href="readMore.html" class="xianWu">联系</a><br>
+            <a href="profession.html" class="xianWu">职业</a><br>
+        </div>
+        <div class="gen">
+            <span class="genZhe">跟着我们</span>
+            <br>
+            <br>
+            <a  class="xianWu">lnsatgram</a><br>
+            <a  class="xianWu">Facebook</a><br>
+            <a  class="xianWu">Tumblr</a><br>
+        </div>
+    </div>
+    <div class="wei2">
+        <div class="tong">
+            <span>通讯</span><input type="text" name="communication">
+            <span class="ti" >提交</span>
+        </div>
+        <div class="lou">
+            <img src="../images/ideal.png" alt="">
+            <img src="../images/paypal.png" alt="">
+            <img src="../images/mastercard.png" alt="">
+            <img src="../images/visa.png" alt="">
+            <img src="../images/klarna.png" alt="">
+        </div>
+        <div class="tiao">
+            <a href="terms.html" class="xianWu">条款和条件</a> &nbsp;
+            <a href="Privacy.html" class="xianWu">隐私申明</a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="../bootstrap-3.3.5-dist/js/jquery-1.11.3.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/delete.js"></script>
+<script>
+    window.onload=function () {
+        console.log($("#dd").text());
+        www();
+    }
+
+    function www() {
+        $.ajax({
+            type: "post",
+            url: "/gouwu.do",
+            data: {//传参
+                id:$("#dd").text()
+            },
+            success: function (data) {
+                document.getElementById("ta").innerHTML = ""
+                for (var i = 0; i < data.length; i++) {
+                    document.getElementById("ta").innerHTML += "<tr>\n" +
+                        "                <td>\n" +
+                        "                    <img src=\""+data[i].img+"\" alt=\"\">\n" +
+                        "                    &nbsp;&nbsp; &nbsp;&nbsp;<span>"+data[i].p_name+"</span></td>\n" +
+                        "                <td>"+data[i].p_color+"</td>\n" +
+                        "                <td>"+data[i].p_size+"</td>\n" +
+                        "                <td>\n" +
+                        "                    <select>\n" +
+                        "                        <option value=\"0\">1</option>\n" +
+                        "                        <option value=\"1\">2</option>\n" +
+                        "                    </select>\n" +
+                        "                </td>\n" +
+                        "                <td><a  class=\"xianWu\">删除</a></td>\n" +
+                        "                <td>￥"+data[i].p_price+"</td>\n" +
+                        "            </tr>"
+                }
+
+            }
+        })
+    }
+
+
+
+</script>
+</body>
+</html>

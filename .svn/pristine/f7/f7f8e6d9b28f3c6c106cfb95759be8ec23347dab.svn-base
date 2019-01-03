@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/storesETQ.css">
+</head>
+<body>
+<section>
+    <div class="divLogo">
+        <h1>专卖店查询</h1>
+    </div>
+    <div class="divSS">
+        <h3>您附近的专卖店</h3>
+        <div class="clsInit">
+            省:<select id="selF"><option>请选择</option></select>
+            市:<select id="selT"><option>请选择</option></select>
+            区:<select id="selC"><option>请选择</option></select>
+            <input id="Button1" type="button" value="一键查询" class="btn"/>
+        </div>
+        <h5>查询结果:</h5>
+        <div class="divMD">
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+            <div class="divText">
+                <h1>西直门特别特ETQ六代LITE店</h1>
+                <P>类型：常规店</P>
+                <p>地址：西直门外大街136四达大厦特别特商场7层</p>
+                <P>电话：18210328236</P>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+
+<script src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        function objInit(obj){
+            return $(obj).html("<option>请选择</option>");
+        }
+        var arrData = {
+            四川省:{
+                成都市: "锦江区,青羊区,金牛区,武侯区,成华区,龙泉驿区,青白江区,新都区,温江区,双流区",
+                内江市: "市中区,东兴区,威远县,资中县,隆昌县",
+                自贡市:"自流井区,贡井区,大安区,沿滩区,荣县,富顺县",
+                攀枝花市:"东区,西区,仁和区,米易县,盐边县",
+                泸州市:"江阳区,纳溪区,龙马潭区,泸县,合江县,叙永县,古蔺县",
+                德阳市:"旌阳区,中江县,罗江县",
+                绵阳市:"涪城区,游仙区,安州区,三台县,盐亭县,梓潼县",
+                广元市:"利州区,昭化区,朝天区,旺苍县,青川县,剑阁县,苍溪县",
+            },
+            北京市:{
+                北京市: "东城区,西城区,朝阳区,丰台区,石景山区,海淀区,门头沟区,房山区,通州区,顺义区,昌平区,大兴区,怀柔区,平谷区,密云区,延庆区"
+            },
+            上海市:{
+                上海市: "黄浦区,徐汇区,长宁区,静安区,普陀区,,虹口区,杨浦区,闵行区,宝山区,嘉定区,浦东新区,金山区,松江区,青浦区,奉贤区,崇明县"
+            },
+            深圳市:{
+                深圳市: "罗湖区,福田区,南山区,宝安区,普陀区,,虹口区,盐田区"
+            },
+            重庆市:{
+                重庆市: "黄浦区,徐汇区,长宁区,静安区,普陀区,,虹口区,杨浦区,闵行区,宝山区,嘉定区,浦东新区,金山区,松江区,青浦区,奉贤区,崇明县"
+            },
+
+        };
+        $.each(arrData, function(pF){
+            $("#selF").append("<option>"+pF+"</option>");
+        });
+        $("#selF").change(function(){
+            objInit("#selT");
+            objInit("#selC");
+            $.each(arrData, function(pF, pS){
+                if($("#selF option:selected").text()==pF){
+                    $.each(pS, function(pT, pC){
+                        $("#selT").append("<option>"+pT+"</option>");
+                    });
+                    $("#selT").change(function(){
+                        objInit("#selC");
+                        $.each(pS, function(pT, pC){
+                            if($("#selT option:selected").text()==pT){
+                                $.each(pC.split(","),function(){
+                                    $("#selC").append("<option>"+this+"</option>");
+                                });
+                            }
+                        });
+                    });
+                }
+            });
+        });
+        $("#Button1").click(function(){
+            var strValue = "您选择的省份:";
+            strValue += $("#selF option:selected").text();
+            strValue += "&nbsp;您选择的城市:";
+            strValue += $("#selT option:selected").text();
+            strValue += "&nbsp;您选择的区县:";
+            strValue += $("#selC option:selected").text();
+            $("#divTip").show().html(strValue);
+        });
+    })
+</script>
+</body>
+</html>

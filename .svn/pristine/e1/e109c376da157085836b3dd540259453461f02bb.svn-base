@@ -1,0 +1,48 @@
+const db=require("../config/dbpoolconfig");//调用连接池
+const  storeDao=require("../dao/storesDao");//连接dao
+const stores= {
+    ShowAll(req, resp) {
+        storeDao.DaoAll([], function (result) {
+            console.log(result);
+            resp.send(result)
+        })
+    },
+    search(req,resp){
+        let selF=req.query.selF||"";
+        let selT=req.query.selT||"";
+        let selC=req.query.selC||"";
+        // let sex=req.query.sex||"";
+        let params=[];
+        // console.log("性别"+grade);
+
+        /*select from t_student where stuname=? and stuid=? and grade=? and sex=?*/
+
+        let sql="select * from stores where 1=1";
+        if(selF!=""){
+            sql+=" and sheng like ?";
+            selF="%"+selF+"%";
+            params.push(selF);
+        }
+        if(selT!=""){
+            sql+=" and shi=?";
+            params.push(selT);
+        }
+        if(selC!=""){
+            sql+=" and qu=?";
+            params.push(selC);
+        }
+        // if(sex!=""){
+        //     sql+=" and sex=?";
+        //     sex=sex.trim();
+        //     params.push(sex);
+        // }
+        console.log(sql);
+        // console.log(params);
+        db.connect(sql,params,(err,data)=>{
+            // console.log(data);
+            console.log(err);
+            resp.send(data);
+        })
+    }
+};
+module.exports=stores ;

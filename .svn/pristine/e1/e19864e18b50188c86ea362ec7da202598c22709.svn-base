@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/tuihuo.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/yewei.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--<![endif]&ndash;&gt;-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+<div id="back1">
+<%-include('common/nav.ejs')%>
+<div id="free">
+    <input type="text" placeholder="Free shipping" id="input1" ><i class="fas fa-search" id="color"></i>
+</div>
+</div>
+<section id="second1">
+    <div id="hour123">
+        <span id="hour"><i class="fas fa-angle-left" id="jian"></i><i class="fas fa-arrow-left" id="jian1"></i></span>
+        <a href="../html/information.html"><span id="return">返回</span></a>
+    </div>
+    <div>
+        <span id="song1">退货和换货</span>
+        <span id="kou1">无论是在阿姆斯特丹的etq商店还是将产品发回给我们，都可以退回产品。请求退货或换货时，请务必注意以</span>
+        <span id="kou2">下信息：</span>
+    </div>
+    <div >
+        <span id="q">您可以在收到包裹后的14个日历日内退回订单。所有货物在返回时都要进行检查，并且应该干净且未经磨损。</span>
+        <span id="q1">为了您和我们的方便，请将您收到的运输箱中的鞋子退回或使用另一个坚固的箱子，以确保我们能够以最佳</span>
+        <span id="q2">状态收到货物。</span>
+    </div>
+    <div>
+        <span id="w">我们的目标是在14个日历日内处理任何退货或换货，并在流程完成后与您联系。请注意，根据您的银行或发</span>
+        <span id="w1">卡机构的不同，最多可能需要10个日历日才能将资金存入您的银行帐户。</span>
+    </div>
+    <div>
+        <span id="e">在线订单也可以在阿姆斯特丹的etq商店退回。请注意，退款不能直接在店内提供，但会在14个日历日内通过</span>
+        <span id="e1">我们的系统发出。如果您打算更换商品，请致电我们的商店，以确保我们在商店有您的尺码。电话：</span>
+        <span id="e2">+31（0）202 613 815</span>
+    </div>
+    <div>
+        <span id="r">请注意，退回/更换商品时，运费由您自己承担。</span>
+    </div>
+    <div>
+        <span id="r1">任何不符合上述规定的退货可能会被ETQ酌情拒绝。</span>
+    </div>
+    <div>
+        <span id="r2">退货地址：</span>
+        <span id="r3">Singel 465 </span>
+        <span id="r4">1012WP阿姆斯特丹</span>
+        <span id="r5">荷兰</span>
+    </div>
+    <div>
+        <span id="r33">国际回报</span>
+        <span id="r7">所有退回的物品应在报关单上声明为“荷兰商品的退货和维修”。这应该写在包装上和声明表中。没有提及的</span>
+        <span id="r8">退回包裹可能无法成功送到我们的仓库，可能需要支付额外费用。 如果出现意外的高回报成本，我们建议您</span>
+        <span id="r9">通过[电子邮件保护]  与我们联系，  因为我们可以帮助您降低成本。</span>
+    </div>
+    <div>
+        <span id="r333">订单不正确</span>
+        <span id="r77">我们的目标是提供顺畅，轻松的订单流程。如果您的订单出现任何问题，请致电（+31）202 614 615或发送</span>
+        <span id="r88">电子邮件至[email protected]。通过电子邮件发送客户服务时，请随时提供您的订单参考。</span>
+        <span id="r99">我们的客户服务在工作日上午9:30至下午18:00（CET）提供。</span>
+    </div>
+</section>
+<div class="clear"></div>
+<br><br><br><br><br><br>
+<%-include('common/footer.ejs')%>
+<script src="../js/tuihuo.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/jquery-1.11.3.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/yewei.js"></script>
+</body>
+</html>

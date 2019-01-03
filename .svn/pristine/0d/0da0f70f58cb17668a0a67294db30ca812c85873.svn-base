@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/information.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+<!--导航-->
+<div id="dao">
+    <img src="../img/meimei2.jpg" alt="">
+</div>
+<!--背景图-->
+<div id="img">
+<span id="we">问我们什么</span>
+    <div id="free">
+        <input type="text" placeholder="Free shipping" id="input" ><i class="fas fa-search" id="color"></i>
+    </div>
+</div>
+<!--文字-->
+<br><br><br><br>
+<div id="a">帮助主题</div>
+<br>
+<div>
+    <div class="b1">找不到您要找的答案？您可以</div><div class="b">发送电子邮件至</div><div class="b">service@etq</div><div class="b">-amsterdam.com。</div>
+</div>
+<div>
+    <div id="c">尺码指南</div>
+    <div class="d1">在我们的尺寸指南中找出您需要</div>
+    <div class="d2">的尺寸。</div>
+    <a href="../html/chima.html"><div class="d3" id="quan">阅读更多<div class="display"></div></div></a>
+    <div class="d4">返回</div>
+    <div class="d1">阅读如何退回您的项目以及适用</div>
+    <div class="d2">的规则。</div>
+    <a href="../html/tuihuo.html"><div class="d3" id="quan1">阅读更多<div class="display"></div></div></a>
+    <div class="d4">订单跟踪</div>
+    <div class="d1">追踪您的订单</div>
+    <a href="../html/information.html"><div class="d3" id="quan2">阅读更多<div class="display"></div></div></a>
+</div>
+<div id="xia">
+    <div id="v">送货信息</div>
+    <div class="d11">运费，预计时间和免费送货选项。</div>
+    <a href="../html/songhuo.html"> <div class="d33" id="quan3">阅读更多<div class="display"></div></div></a>
+    <div class="d44">交易所</div>
+    <div class="d11">阅读如何轻松应用您的交换，并确</div>
+    <div class="d22">保您的项目保留。</div>
+    <a href="../html/tuihuo.html"><div class="d331" id="quan4">阅读更多<div class="display"></div></div></a>
+</div>
+<div>
+    <div id="z">付款</div>
+    <div class="d111">可用的付款选项和其他常见付款问
+        <div class="d333">题。</div>
+        <a href="../html/information.html"><div class="d3333" id="quan5">阅读更多<div class="display"></div></div></a>
+    <div class="d444">经常问的问题</div>
+    <div class="d1111">在常见问题部分找到答案。</div>
+        <a href="../html/information.html"></a> <div class="d3333" id="quan6">阅读更多<div class="display"></div></div>
+</div>
+    <!--页尾-->
+    <div>
+        <img src="../img/yewei.png" alt="">
+    </div>
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/information.js"></script>
+</body>
+</html>

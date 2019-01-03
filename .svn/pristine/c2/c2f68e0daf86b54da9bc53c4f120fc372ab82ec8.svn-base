@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--页头-->
+<%-include('common/nav.ejs')%>
+<!--内容-->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="../public/img/wangziluo1.jpg" class="col-lg-12">
+            </div>
+            <div class="col-lg-6" style="margin-top: 100px">
+                <p>免费有机totebag</p>
+                <p>仅限ETQ，也适用于店内：</p>
+                <p>每次购买都会收到我们的有机棉手提包，有效期至2018年12月3日</p>
+                <p>
+                    - 重型有机棉帆布 <br>
+                    - 带拉链的小内袋 <br>
+                    - 自动包含在您的订单中 <br>
+                    - 请注意：如果退货，必须随身携带 <br>
+                </p>
+                <p>
+                    <a href="" class="xianWu">购买新系列</a>
+                </p>
+                <p>
+                    <a href="" class="xianWu">分享</a>
+                </p>
+            </div>
+        </div>
+        <hr style="margin-top: 50px">
+        <div class="row" style="margin-top: 50px" id="div1">
+            <span class="col-lg-offset-6"><a href="" class="xianWu">查看更多</a></span>
+        </div>
+        <div class="row" style="margin-top: 50px" id="div2">
+            <div class="col-lg-3">
+                <img src="../public/img/wangziluo2.jpg" alt="" class="col-lg-6">
+                <div class="col-lg-6">
+                    秋季天气的基本风格 <br>
+                    走向秋冬，我们走向……
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <img src="../public/img/wangziluo3.jpg" alt="" class="col-lg-6">
+                <div class="col-lg-6">
+                    介绍新的技术风格 <br>
+                    介绍完成我们的三个设 <br>
+                    计……
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <img src="../public/img/wangziluo5.jpg" alt=""class="col-lg-6">
+                <div class="col-lg-6">
+                    技术先行者：德比和切尔西 <br>
+                    切尔西和德比归来……
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <img src="../public/img/wangziluo4.jpg" alt="" class="col-lg-6">
+                <div class="col-lg-6">
+                    材质：防水正绒面革 <br>
+                    皮革以其耐磨而著 <br>
+                    称
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--页尾-->
+<%-include('common/footer.ejs')%>
+</body>
+</html>

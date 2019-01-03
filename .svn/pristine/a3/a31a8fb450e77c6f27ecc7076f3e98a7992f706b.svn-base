@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/etq.css">
+</head>
+<body >
+<section id="nei">
+    <div id="tu">
+        <div class="tuDiv">
+            <img src="../images/etqstorehead-1-1600x1600-c-default.jpg" alt="" class="tu">
+        </div>
+        <div class="ETQdiv">
+            <span class="ETQ">关于etq商店</span><br><br>
+            <span class="wen">自2015年开业以来，etq商店拥有一系列知名品牌和年轻人才，精心策划，以配合重要的ETQ风格和审美。
+            </span>
+            <p>&nbsp;&nbsp;</p>
+            <span class="ziT">成立</span><br>
+            <span class="ziT">2015年</span><p>&nbsp;</p>
+            <span class="ziT">起源</span><br>
+            <span class="ziT">阿姆斯特丹</span><p>&nbsp;</p>
+            <span class="ziT">品牌</span><br>
+            <span class="ziT">APC - AiméLeonDore - Études - Harmony </span><br>
+            <span class="ziT">Paris - 北欧项目 - Maison Margiela </span><br>
+            <span class="ziT">Fragrance - The North Face - 等等</span><br>
+
+        </div>
+    </div>
+    <div class="Float"></div>
+</section>
+<section id="nei2">
+    <div id="wen">
+        <span>曾经是阿姆斯特丹标志性的RoXY夜总会的所在地，这个巨大的空间被剥光，并与studiojosvandijk合作设计，展现了粗糙和极简的中庭，大型混凝土和单色细节为完美的产品选择创造了完美的背景。</span><br><br>
+        <span>无论是离线还是在线，etq商店都欢迎一群志同道合的人，并且每天都会继续这样做。吸引那些对细节有独特眼光的人，重视极简主义的精致，并在生活的各个方面拥抱质量而不是数量</span><br><br>
+        <span>作为ETQ设计理念的延伸，etq商店提供全新的零售体验，包括活动，艺术，高品质产品和优质设计。</span>
+        <br>
+        <span>商店更新：&nbsp; <a href="#" class="xianWu"> @etqstore</a></span>
+    </div>
+    <div id="Open">
+        <span>营业时间</span><br>
+        <span>星期一</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>上午10点-下午6点</span><br><br>
+        <span>星期二</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>上午10点-下午6点</span><br><br>
+        <span>星期三</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>上午10点-下午6点</span><br><br>
+        <span>星期四</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>上午10点-下午6点</span><br><br>
+        <span>星期五</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>上午10点-下午6点</span><br><br>
+        <span>星期六</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>上午10点-下午6点</span><br><br>
+        <span>星期天</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>上午12点-下午6点</span><br><br>
+    </div>
+    <div id="singe">
+        <span>Singel 465 </span> <br><br>
+        <span>1012 WP阿姆斯特丹</span><br><br>
+        <span>荷兰</span><br><br>
+        <a href="#" class="xianWu">获取路线</a><br><br>
+        <a href="tel:+31（0）20 26 13 815" class="xianWu" >+31（0）20 26 13 815</a><br><br>
+        <a href="mailto:info@etqstore.com" class="xianWu">info@etqstore.com</a><br><br>
+
+    </div>
+    <div class="fu"></div>
+    <div id="tu2">
+        <img src="../images/etqstorefront-2000x0-c-default.jpg" alt="">
+    </div>
+    <div id="tu3">
+        <img src="../images/etqstoredetail-600x0-c-default.jpg" alt="">
+        <img src="../images/etqstoreupstairs2-1600x0-c-default.jpg" alt="">
+    </div>
+    <div id="tu4">
+        <img src="../images/etqstorebasement-2000x0-c-default.jpg" alt="">
+    </div>
+</section>
+<footer id="footer">
+    <div class="wei">
+        <div class="guan">
+            <span class="guanYu">关于</span>
+            <br>
+            <br>
+            <span class="etq">ETQ成立于2010年，位于阿姆斯特丹，在消除过度配饰品牌的心态下，主要致力于让产品质量不言而喻。<a href="readMore.html" class="read">阅读更多</a> </span>
+        </div>
+        <div class="di">
+            <span class="diZhi">地址</span>
+            <br>
+            <br>
+            <span class="singel">Singel 459
+            <br> 1012 WP阿姆斯特丹
+            <br> 荷兰</span>
+        </div>
+        <div class="lian">
+            <span class="lianXi">联系</span>
+            <br>
+            <br>
+            <a href="mailto:info@etqstore.com" class="xianWu">电邮我们</a>
+            <br>
+            <a href="tel:+31（0）20 26 13 815" class="xianWu" >+31（0）20 26 13 815</a><br><br>
+
+        </div>
+        <div class="xin">
+            <span class="xinXi">信息</span>
+            <br>
+            <br>
+            <a href="#" class="xianWu">送货信息</a><br>
+            <a href="readMore.html" class="xianWu">联系</a><br>
+            <a href="profession.html" class="xianWu">职业</a><br>
+        </div>
+        <div class="gen">
+            <span class="genZhe">跟着我们</span>
+            <br>
+            <br>
+            <a href="#" class="xianWu">lnsatgram</a><br>
+            <a href="#" class="xianWu">Facebook</a><br>
+            <a href="#" class="xianWu">Tumblr</a><br>
+        </div>
+    </div>
+    <div class="wei2">
+        <div class="tong">
+            <span>通讯</span><input type="text" name="communication">
+            <span class="ti" >提交</span>
+        </div>
+        <div class="lou">
+            <img src="../images/ideal.png" alt="">
+            <img src="../images/paypal.png" alt="">
+            <img src="../images/mastercard.png" alt="">
+            <img src="../images/visa.png" alt="">
+            <img src="../images/klarna.png" alt="">
+        </div>
+        <div class="tiao">
+            <a href="terms.html" class="xianWu">条款和条件</a> &nbsp;
+            <a href="Privacy.html" class="xianWu">隐私申明</a>
+        </div>
+    </div>
+</footer>
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/etq.js"></script>
+</body>
+</html>

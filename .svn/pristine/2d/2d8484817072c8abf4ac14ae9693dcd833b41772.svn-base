@@ -1,0 +1,13 @@
+const db=require("../config/dbpoolconfig");//调用连接池
+const  zwDao=require("../dao/zwDao");//连接dao
+
+
+const zwController= {
+    getPagCustomization(req,resp){
+        zwDao.getPagCustomizationMySql([],function (result) {
+            console.log(result+"ooooooooo5555");
+            resp.send(result)
+        })
+    }
+};
+module.exports=zwController ;

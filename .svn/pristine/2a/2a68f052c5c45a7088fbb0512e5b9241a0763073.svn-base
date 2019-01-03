@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/MyIndex.css">
+</head>
+<body>
+
+<section>
+    <div class="myDivLeft">
+        <div class="myDivLeft_1">
+            <h1>我的账户</h1>
+        </div>
+        <div class="myDivLeft_2">
+            <p>联系信息</p>
+            <p>地址谱</p>
+            <p>命令</p>
+            <p>通讯</p>
+            <p>登出</p>
+        </div>
+
+    </div>
+    <div class="myDivRight">
+        <div class="myDivRight_1">
+            <h1>欢迎</h1>
+            <P>在这里，您可以跟踪您最近的活动，请求您收到的订单的退货/换货授权，<br>以及查看和编辑您的帐户信息或收藏项目列表。</P>
+            <a href="#">联系</a>
+        </div>
+        <div class="myDivRight_2">
+            <h1>联系信息</h1>
+            <div class="divP">
+                <p>姓名:</p>
+                <p>邮箱:</p>
+            </div>
+            <a href="MyindexBJ.html">编辑信息</a><br>
+            <a href="MyindexBJ.html">更改密码</a>
+        </div>
+        <hr>
+        <div class="myDivRight_1">
+            <h1>地址</h1>
+            <P>账单地址</P>
+            <a href="MyindexBJDZ.html">编辑地址</a>
+        </div>
+        <div class="myDivRight_2">
+            <h1></h1>
+            <div class="divP">
+                <p>收件地址</p>
+                <p>你尚未添加地址</p>
+            </div>
+            <a href="MyindexBJDZ.html">添加地址</a><br>
+        </div>
+        <hr>
+        <div class="myDivRight_1">
+            <h1>命令</h1>
+            <P>你目前没有订单</P>
+        </div>
+
+        <div class="myDivRight_1">
+        </div>
+        <hr>
+        <div class="myDivRight_1">
+            <h1>简讯</h1>
+            <p>当前没有简讯</p>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+</body>
+</html>

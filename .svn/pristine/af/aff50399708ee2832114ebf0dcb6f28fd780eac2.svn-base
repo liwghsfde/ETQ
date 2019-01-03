@@ -1,0 +1,76 @@
+const db=require("../config/dbpoolconfig");
+const  storeDao= {
+    DaoAll(params,callback){
+        db.connect("select * from stores",
+            params,(err,data)=>{
+                callback(data);
+            })
+    },
+    //=====总页
+    DaoTotalPages(params,callback) {
+        let pageCount = 8;
+        db.connect("select count(*) as totalcount from stores",
+            params, (err, data) => {
+                console.log(data[0].totalcount+"==============");
+                let result = Math.ceil(data[0].totalcount / pageCount);
+                // console.log(result+"------------");
+                result = String(result);
+                // console.log(typeof result);
+                callback(result);
+            })
+    },
+    DaoTotalPagess(params,callback) {
+        let pageCount = 8;
+        db.connect("select count(*) as totalcount from stores WHERE 1=1 AND sheng LIKE '"+params[0]+"' AND shi='"+params[1]+"'AND qu='"+params[2]+"'",
+            params, (err, data) => {
+                // console.log(data[0].totalcount+"==============");
+                let result = Math.ceil(data[0].totalcount / pageCount);
+                // console.log(result+"------------");
+                result = String(result);
+                // console.log(typeof result);
+                callback(result);
+            })
+    },
+    //每页显示多少信息
+    Daolines(params,callback) {
+        // console.log(params[1]+"=====")
+        db.connect("select * from stores limit ?,?",
+            params, (err, data) => {
+                // console.log(data+"11111111111");
+                callback(data);
+            })
+    },
+    // Daoliness(params,callback) {
+    //     console.log(params[0]+".................");
+    //     db.connect("SELECT * FROM stores WHERE 1=1 AND sheng LIKE '"+params[0]+"' AND shi='"+params[1]+"' AND qu='"+params[2]+"' LIMIT "+params[3]+","+params[4]+"",
+    //         [params], (err, data) => {
+    //             console.log("SELECT * FROM stores WHERE 1=1 AND sheng LIKE '"+params[0]+"' AND shi='"+params[1]+"' AND qu='"+params[2]+"' LIMIT "+params[3]+","+params[4]+"");
+    //             callback(data);
+    //         })
+    // }
+    Daogouwu(params,callback) {
+        // console.log(params[1]+"=====")
+        db.connect("SELECT *,goods_id AS a,(SELECT g_n_id FROM goods WHERE goods_id=a) AS name1,(SELECT g_c_id FROM goods WHERE goods_id=a) AS color1,(SELECT g_z_id FROM goods WHERE goods_id=a) AS size1,(SELECT pic_path FROM goods_pic WHERE g_n_id=name1 AND g_c_id=color1 AND pic_num=1) AS pic_path,(SELECT g_name FROM goods_name WHERE g_n_id=name1) AS g_name,(SELECT color_name FROM goods_color WHERE g_c_ID=color1) AS g_color,(SELECT size_code FROM goods_size WHERE g_s_id=size1) AS size_code,COUNT,(SELECT price FROM goods WHERE goods_id=a) AS price FROM shopping_car WHERE user_id=?",
+            params,(err,data)=>{
+            // console.log(data);
+                callback(data);
+            })
+    },
+    Daoshanchu(params,callback) {
+        // console.log(params[1]+"=====")
+        db.connect("DELETE FROM shopping_car WHERE shop_ID=?",
+            params,(err,data)=>{
+                console.log(params)
+                callback(data);
+            })
+    },
+    Daodindan(params,callback) {
+        console.log(params)
+        db.connect("INSERT INTO dindan VALUES ((?),(?,1),(?,1),(?,1),(?,1),(?,1),(?,1),(?,1),(?),(?),(?))",
+            params,(err,data)=>{
+                console.log(data);
+                callback(data);
+            })
+    }
+};
+module.exports= storeDao;

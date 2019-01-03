@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../public/css/page1-bk4-3css.css">
+    <link rel="stylesheet" href="../public/css/button.css">
+    <link rel="stylesheet" href="../public/css/nav.css">
+    <link rel="stylesheet" href="../public/css/yewei.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--<![endif]&ndash;&gt;-->
+</head>
+<body>
+<!--页头-->
+<%-include('common/nav.ejs')%>
+<!--内容-->
+<section>
+    <!--板块1-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="../public/img/hr118.jpg" class="col-lg-12">
+            </div>
+            <div class="col-lg-5">
+                <h2 class="js">
+                    FW18预览 - PT01
+                </h2>
+                <p class="Read">
+                    今年秋天会发生什么
+                </p>
+                <p class="Read">
+                    <br>
+                    对于2018秋冬，我们坚持持久设计的核心原则，并提供新发明和更新的轮廓，
+                    提供价值。旨在响应我们的环境，专注于耐用材料和技术特性的开发。
+                    <br>
+                    <br>
+                </p>
+                <p class="Read"><a href="" class="xianWu">分享</a></p>
+            </div>
+        </div>
+    </div>
+    <!--板块2-->
+    <div class="container-fluid bk-top2">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-1">
+                <p class="Read1">
+                    未来几个月，我们将发布用于制作的主食
+                    熟悉的Nubuck和Nappa皮革，交替使用
+                    当代材料，如Ballistic Cordura，技术针织品
+                    和原始绝对羊毛（RAW）。定义一种新的奢侈形式
+                    通过精心设计的产品，真正推动边界，
+                    没有放弃风格。
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--板块3-->
+    <div class="container-fluid bk-top2">
+        <div class="row">
+            <div class="col-lg-9">
+                <img src="../public/img/hr119.jpg" class="col-lg-12" >
+            </div>
+            <div class="col-lg-3">
+                <img src="../public/img/hr120.jpg" class="LT">
+                <p class="MT LT">
+                    CB 01烟草
+                    <br>
+                    € 227.27
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--板块4-->
+    <div class="container-fluid bk-top">
+        <div class="row">
+            <div class="col-lg-6 bk-smtop1">
+                <img src="../public/img/hr121.jpg" class="col-lg-8 col-lg-offset-2">
+            </div>
+            <div class="col-lg-6">
+                <img src="../public/img/hr122.jpg" class="col-lg-12">
+            </div>
+        </div>
+    </div>
+    <!--板块5-->
+    <div class="container-fluid bk-top">
+        <div class="row">
+            <div class="col-lg-9">
+                <img src="../public/img/hr123.jpg" class="col-lg-12" >
+            </div>
+            <div class="col-lg-3">
+                <img src="../public/img/hr124.jpg" class="LT">
+                <p class="MT LT">
+                    LT 01 Sand Men
+                    <br>
+                    € 206.61
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--板块6-->
+    <div class="container-fluid bk-top">
+        <div class="row">
+            <div class="col-lg-6 bk-smtop1">
+                <img src="../public/img/hr125.jpg" class="col-lg-8 col-lg-offset-2">
+            </div>
+            <div class="col-lg-6">
+                <img src="../public/img/hr126.jpg" class="col-lg-12">
+            </div>
+        </div>
+    </div>
+    <!--板块7-->
+    <div class="container-fluid bk-top">
+        <div class="row">
+            <div class="col-lg-9">
+                <img src="../public/img/hr127.jpg" class="col-lg-12" >
+            </div>
+            <div class="col-lg-3">
+                <img src="../public/img/hr128.jpg" class="LT">
+                <p class="MT LT">
+                    CB 01灰
+                    <br>
+                    € 227.27
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--板块8-->
+    <div class="container-fluid bk-top">
+        <div class="row">
+            <div class="col-lg-6 bk-smtop1">
+                <img src="../public/img/hr129.jpg" class="col-lg-8 col-lg-offset-2">
+            </div>
+            <div class="col-lg-6">
+                <img src="../public/img/hr130.jpg" class="col-lg-12">
+            </div>
+        </div>
+    </div>
+    <!--板块9-->
+    <div class="container-fluid bk-top">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="../public/img/hr131.jpg" class="col-lg-12" >
+            </div>
+            <div class="col-lg-3">
+                <img src="../public/img/hr132.jpg" class="LT">
+                <p class="MT LT">
+                    LT 01 Cedar
+                    <br>
+                    € 206.61
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--板块10-->
+    <div class="container-fluid bk-top">
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-3">
+                <p class="MT2 LT">
+                    CB 01灰
+                    <br>
+                    € 227.27
+                </p>
+                <img src="../public/img/hr133.jpg" class="LT">
+            </div>
+            <div class="col-lg-6">
+                <img src="../public/img/hr134.jpg" class="col-lg-12" >
+            </div>
+
+        </div>
+    </div>
+    <!--板块11-->
+    <div class="container-fluid  bk-top">
+        <div class="row">
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购买这个故事
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 sale1">
+                <img src="../public/img/hr135.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    LT 01棕褐色
+                    <br>
+                    € 206.61
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr136.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    LT 01 Sand Men
+                    <br>
+                    € 206.61
+                </p>
+                <div class="size1 ">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr137.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    LT 05陆军赤霞珠红
+                    <br>
+                    € 214.88
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 sale1">
+                <img src="../public/img/hr138.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    LT 05陆军午夜蓝
+                    <br>
+                    € 214.88
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr139.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    LT 05陆军赛车绿色
+                    <br>
+                    € 214.88
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr140.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    CB 01灰
+                    <br>
+                    € 227.27
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr141.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    CB 01黑色
+                    <br>
+                    € 214.88
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr142.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    CB 01干邑
+                    <br>
+                    € 227.27
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr143.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    CB 01烟草
+                    <br>
+                    € 227.27
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bk-bot">
+        <div class="row">
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr144.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    LT 01针织沥青
+                    <br>
+                    € 202.48
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr145.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    LT 01针织Microchip
+                    <br>
+                    € 202.48
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+            <div class="col-lg-4  sale1">
+                <img src="../public/img/hr146.jpg" class="col-lg-12">
+                <p class="fontJianjie1">
+                    LT 01针织黑色
+                    <br>
+                    € 202.48
+                </p>
+                <div class="size1">
+                    <p>可用尺寸</p>
+                    <a href=""class="xianWu"> 欧盟 39</a>
+                    <a href=""class="xianWu"> 欧盟 40</a>
+                    <a href=""class="xianWu"> 欧盟 41</a><br>
+                    <a href=""class="xianWu"> 欧盟 42</a>
+                    <a href=""class="xianWu"> 欧盟 43</a>
+                    <a href=""class="xianWu"> 欧盟 44</a>
+                    <a href=""class="xianWu"> 欧盟 45</a>
+                    <a href=""class="xianWu"> 欧盟 46</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</section>
+<!--页尾-->
+<%-include('common/footer.ejs')%>
+<script src="../public/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script src="../public/bootstrap-3.3.5-dist/js/jquery-1.11.3.js"></script>
+<script src="../public/js/nav.js"></script>
+<script src="../public/js/jquery-3.1.1.js"></script>
+<script src="../public/js/yewei.js"></script>
+</body>
+</html>

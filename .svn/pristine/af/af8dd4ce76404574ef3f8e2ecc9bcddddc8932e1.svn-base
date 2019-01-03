@@ -1,0 +1,61 @@
+const dbpool=require("../config/dbpoolconfig");
+const userModel={
+    loginUser(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT * FROM user WHERE user_name=? AND user_pw=?",
+                params,
+                (err,data)=>{
+                    if(!err){
+                        resolve(data)
+                    }else {
+                        reject(err);
+                    }
+        })
+        })
+    },
+    newuser(params){
+        return new Promise(((resolve, reject) => {
+            dbpool.connect("insert into user values (?,?,?,?,?)",
+                params,
+                (err,data)=>{
+                  if (!err){
+                    resolve(data)
+                } else {
+                    reject(err)
+                }
+                })
+        }))
+    },
+    Geren(params){
+        return new Promise(((resolve, reject) => {
+            dbpool.connect("select * from user where user_name=?",
+                params,
+                (err,data)=>{
+                if (!err){
+                    resolve(data)
+                } else {
+                    reject(err)
+                }})
+        }))
+    },
+    Dizhi(params){
+        return new Promise(((resolve, reject) => {
+            // console.log(params);
+            dbpool.connect("select * from user where user_name=?",
+                params[0],
+                (err,data)=>{
+               console.log(data[0].user_id);
+               let userid=data[0].user_id;
+                    dbpool.connect("INSERT INTO user_add VALUES (?,?,?,?,?,?,?,?)",
+                        [null,userid,params[2],params[3],params[1],params[4],null,null],
+                        (err,data)=>{
+                        if(!err){
+                            resolve(data)
+                        }else {
+                            reject(err)
+                        }})
+                })
+        }))
+    }
+};
+module.exports=userModel;

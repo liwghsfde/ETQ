@@ -1,0 +1,62 @@
+const dbpool=require("../config/dbpoolconfig");
+const userModel={
+    Aa(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT pic_id,g_n_id AS a,g_c_id AS b,pic_path,(SELECT DISTINCT price FROM goods WHERE g_n_id=a AND g_c_id=b) AS price,(SELECT color_name FROM goods_color WHERE g_c_id=b) AS color_name,(SELECT g_name FROM goods_name WHERE g_n_id=a) AS g_name FROM goods_pic WHERE pic_num=1 AND g_n_id IN(SELECT DISTINCT g_n_id FROM goods WHERE sex='男') ORDER BY pic_id DESC",
+                params,
+                (err,data)=>{
+                resolve(data);
+            })
+        })
+    },
+    leftBtn(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT * FROM goods_pic WHERE g_n_id=(SELECT g_n_id FROM goods_name WHERE g_name=?) AND g_c_id=(SELECT g_c_id FROM goods_color WHERE color_name=?) AND pic_num=?",
+                params,
+                (err,data)=>{
+                resolve(data)
+                })
+
+        })
+    },
+    shopping(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT * FROM goods WHERE g_n_id=(SELECT g_n_id FROM goods_name WHERE g_name=?) AND g_c_id=(SELECT g_c_id FROM goods_color WHERE color_name=?)",
+                params,
+                (err,data)=>{
+                resolve(data)
+                })
+        })
+    },
+    goodsPic(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT * FROM goods_pic WHERE g_n_id=(SELECT g_n_id FROM goods_name WHERE g_name=?) AND g_c_id=(SELECT g_c_id FROM goods_color WHERE color_name=?)",
+                params,
+                (err,data)=>{
+                // console.log(data)
+                resolve(data)
+                })
+        })
+    },
+    getSize(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT *,g_z_id as a,(select size_code from goods_size where g_s_id=a) as size FROM goods WHERE g_n_id=(SELECT g_n_id FROM goods_name WHERE g_name=?) AND g_c_id=(SELECT g_c_id FROM goods_color WHERE color_name=?)",
+                params,
+                (err,data)=>{
+                resolve(data)
+                })
+        })
+    },
+    shoppingcar(params){
+        return new Promise((resolve,reject)=>{
+            dbpool.connect("SELECT *,g_n_id as a,g_c_id as b,g_z_id as c,(SELECT size_code FROM goods_size WHERE g_s_id=c) AS g_size,(SELECT g_name FROM goods_name WHERE g_n_id=a) AS g_name,(SELECT color_name FROM goods_color WHERE g_c_id=b) AS g_color,(select pic_path from goods_pic where g_n_id=a and g_c_id=b and pic_num=1) as pic_path FROM goods WHERE g_n_id=(SELECT g_n_id FROM goods_name WHERE g_name=?) AND g_c_id=(SELECT g_c_ID FROM goods_color WHERE color_name=?) AND g_z_id=(SELECT g_s_id FROM goods_size WHERE size_code=?)",
+                params,
+                (err,data)=>{
+                resolve(data)
+                })
+        })
+    }
+
+};
+
+module.exports=userModel;

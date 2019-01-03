@@ -1,0 +1,65 @@
+$(function(){
+    $("#input").focus(function(){
+        $(this).css("background-color","white");
+    });
+    $("#input").blur(function(){
+        $(this).css("background-color","rgba(255, 255, 255, 0.5)");
+
+    });
+});
+$("#quan").mouseover(function () {
+    $(this).children("div").css("transform-origin","-200% 0");
+    $(this).children("div").css("transform","scale(1)")
+});
+$("#quan").mouseout(function () {
+    $(this).children("div").css("transform-origin","300% 0")
+    $(this).children("div").css("transform","scale(0)")
+});
+$("#quan1").mouseover(function () {
+    $(this).children("div").css("transform-origin","-200% 0");
+    $(this).children("div").css("transform","scale(1)")
+});
+$("#quan1").mouseout(function () {
+    $(this).children("div").css("transform-origin","300% 0")
+    $(this).children("div").css("transform","scale(0)")
+});
+$("#quan2").mouseover(function () {
+    $(this).children("div").css("transform-origin","-200% 0");
+    $(this).children("div").css("transform","scale(1)")
+});
+$("#quan2").mouseout(function () {
+    $(this).children("div").css("transform-origin","300% 0")
+    $(this).children("div").css("transform","scale(0)")
+});
+$("#quan3").mouseover(function () {
+    $(this).children("div").css("transform-origin","-200% 0");
+    $(this).children("div").css("transform","scale(1)")
+});
+$("#quan3").mouseout(function () {
+    $(this).children("div").css("transform-origin","300% 0")
+    $(this).children("div").css("transform","scale(0)")
+});
+$("#quan4").mouseover(function () {
+    $(this).children("div").css("transform-origin","-200% 0");
+    $(this).children("div").css("transform","scale(1)")
+});
+$("#quan4").mouseout(function () {
+    $(this).children("div").css("transform-origin","300% 0")
+    $(this).children("div").css("transform","scale(0)")
+});
+$("#quan5").mouseover(function () {
+    $(this).children("div").css("transform-origin","-200% 0");
+    $(this).children("div").css("transform","scale(1)")
+});
+$("#quan5").mouseout(function () {
+    $(this).children("div").css("transform-origin","300% 0")
+    $(this).children("div").css("transform","scale(0)")
+});
+$("#quan6").mouseover(function () {
+    $(this).children("div").css("transform-origin","-200% 0");
+    $(this).children("div").css("transform","scale(1)")
+});
+$("#quan6").mouseout(function () {
+    $(this).children("div").css("transform-origin","300% 0")
+    $(this).children("div").css("transform","scale(0)")
+});

@@ -1,0 +1,50 @@
+function tu1() {
+    $("#tu11").attr("src","../images/shopping/11.jpg");
+}
+function tu2() {
+    $("#tu11").attr("src","../images/shopping/22.jpg");
+}
+function tu3() {
+    $("#tu11").attr("src","../images/shopping/33.jpg");
+}
+function tu4() {
+    $("#tu11").attr("src","../images/shopping/44.jpg");
+}
+function tu5() {
+    $("#tu11").attr("src","../images/shopping/55.jpg");
+}
+function tu6() {
+    $("#tu11").attr("src","../images/shopping/66.jpg");
+}
+var i=1;
+function da() {
+    if (i==1) {
+        i=0
+        console.log(i)
+        $(".divR").css({
+            "width": "100%",
+            "height": "1024px",
+            "cursor": "url('../images/cursor-zoomout.png'),default"
+
+        });
+    }else if (i==0){
+        i=1
+        console.log(i);
+        $(".divR").css({
+            "width": "66%",
+            "height": "728px",
+            "cursor": "url('../images/cursor-zoomin.png'),default"
+    });
+    }
+
+}
+
+function bigimg(obj){
+    //alert(parseInt(obj.style.zoom,10));
+    var zoom = parseInt(obj.style.zoom,10)||100;
+    console.log(zoom);
+    zoom += event.wheelDelta / 12;
+    if(zoom > 0 )
+        obj.style.zoom=zoom+'%';
+    return false;
+}

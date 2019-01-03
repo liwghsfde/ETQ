@@ -1,0 +1,29 @@
+const userModel=require("../dao/yhDao");
+const yhController={
+    aa(req,resp){
+      userModel.Aa([""])
+          .then((data)=>{
+              resp.send(data);
+          })
+    },
+    goodsname(req,resp){
+        userModel.Goodsname([""])
+            .then((data)=>{
+                resp.send(data);
+            })
+    },
+    goodscolor(req,resp){
+        userModel.Goodscolor([""])
+            .then((data)=>{
+                resp.send(data);
+            })
+    },
+    goodsprice(req,resp){
+        userModel.Goodsprice([""])
+            .then((data)=>{
+                resp.send(data);
+            })
+    }
+
+};
+module.exports=yhController;

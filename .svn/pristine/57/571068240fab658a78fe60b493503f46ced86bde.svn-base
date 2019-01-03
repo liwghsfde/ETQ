@@ -1,0 +1,47 @@
+const userModel=require("../dao/yhDao");
+const yhController={
+    aa(req,resp){
+      userModel.Aa([""])
+          .then((data)=>{
+              resp.send(data);
+          })
+    },
+    goodsname(req,resp){
+        userModel.Goodsname([""])
+            .then((data)=>{
+                resp.send(data);
+            })
+    },
+    goodscolor(req,resp){
+        userModel.Goodscolor([""])
+            .then((data)=>{
+                resp.send(data);
+            })
+    },
+    goodsprice(req,resp){
+        userModel.Goodsprice([""])
+            .then((data)=>{
+                resp.send(data);
+            })
+    },
+    leftBtn(req,resp){
+        let leftColor=req.query.leftColor;
+        let leftName=req.query.leftName;
+        let num=req.query.num;
+        // console.log(leftColor+leftName)
+        userModel.leftBtn([leftName,leftColor,num])
+            .then((data)=>{
+                resp.send(data)
+            })
+    },
+    shopping(req,resp){
+            resp.render("shopping",{shopName:req.query.shopName,shopColor:req.query.shopColor});
+            userModel.shopping([req.query.shopColor,req.query.shopName])
+                .then((data)=>{
+                    console.log(data)
+                    resp.send(data)
+                })
+    }
+
+};
+module.exports=yhController;

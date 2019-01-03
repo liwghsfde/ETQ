@@ -1,0 +1,22 @@
+section{
+    padding-top: 100px;
+}
+.js{
+    font-family: Graphik,sans-serif;
+    font-weight: bolder;
+    color: #3f3f3f;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 20px;
+    line-height: 1.8;
+}
+.Read{
+    font-size: 1.4rem;
+    font-family: Graphik,sans-serif;
+    font-weight: normal;
+    color: #3f3f3f;
+    padding-top:10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    line-height: 1.8;
+}

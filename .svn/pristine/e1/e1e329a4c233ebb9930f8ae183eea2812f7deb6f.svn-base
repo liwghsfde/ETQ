@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <!--引入bootstrap核心样式表-->
+    <title>子页一</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/page1css.css">
+
+</head>
+<body>
+<section>
+    <!--板块1-->
+    <div>
+        <div class="container-fluid">
+            <div class="row">
+                <!--板块1左-->
+                <div class="col-lg-6">
+                    <img src="../img/hurui1.jpg" class="col-lg-12">
+                </div>
+                <!--板块1右-->
+                <div class="col-lg-6 row">
+                    <p class="Free col-lg-12">
+                            免费有机totebag
+                    </p>
+                    <br>
+                    <div class="col-lg-12 div-top9">
+                        <a href="page1-bk1-1.html" class="Read xianWu">
+                            读故事
+                        </a>
+                    </div>
+
+                    <img src="../img/hurui2.jpg" class="col-lg-6 img-div1">
+                    <img src="../img/hurui3.jpg"  class="col-lg-6 img-div1">
+                    <!--图下文字-->
+                    <div class="col-lg-12 row">
+                        <!--左-->
+                        <p class="col-lg-5 fontJianjie1 img-div2">
+                            秋季天气的基本风格
+                            <br>
+                            走向秋冬，我们转向荷兰海岸线，展示了一系列......
+                            <br>
+                            <br>
+                            <a href="page1-bk1-2.html" class="xianWu">读故事</a>
+                        </p>
+                        <!--右-->
+                        <p class="col-lg-6 col-lg-offset-1  fontJianjie2 img-div2">
+                            介绍新的技术风格
+                            <br>
+                            介绍三种设计，完成我们对技术和纺织品的持续探索，兼收并蓄......
+                            <br>
+                            <br>
+                            <a href="page1-bk1-3.html" class="xianWu">读故事</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--板块2-->
+    <div class="div-pd" id="div1">
+        <div class="container-fluid">
+            <div class="row">
+                <div>
+                    <!--小板块1-->
+                    <div class="col-lg-4">
+                        <img src="../img/hurui4.jpg" class="col-lg-7">
+                        <p class="col-lg-5 fontJianjie3">
+                            技术先行者：德比和切尔西
+                            本赛季切尔西和德比重返赛场，重新设计......
+                            <br>
+                            <br>
+                            <a href="../html/page1-bk2-1.html" class="xianWu">读故事</a>
+                        </p>
+                    </div>
+                    <!--小板块2-->
+                    <div class="col-lg-4">
+                        <img src="../img/hurui5.jpg" class="col-lg-7">
+                        <p class="col-lg-5 fontJianjie3">
+                            技术先行者：德比和切尔西
+                            本赛季切尔西和德比重返赛场，重新设计......
+                            <br>
+                            <br>
+                            <a href="../html/page1-bk2-2.html" class="xianWu">读故事</a>
+                        </p>
+                    </div>
+                    <!--小板块3-->
+                    <div class="col-lg-4">
+                        <img src="../img/hurui6.jpg" class="col-lg-7">
+                        <p class="col-lg-5 fontJianjie3">
+                            技术先行者：德比和切尔西
+                            本赛季切尔西和德比重返赛场，重新设计......
+                            <br>
+                            <br>
+                            <a href="../html/page1-bk2-3.html" class="xianWu">读故事</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--板块3-->
+    <div class="div-pd" id="div2">
+        <div class="container-fluid">
+            <div class="row">
+                <!--板块3左-->
+                <div class="col-lg-6">
+                    <img src="../img/hurui7.jpg" class="col-lg-12">
+                </div>
+                <!--板块3右-->
+                <div class="col-lg-6 row img-div1">
+                    <p>
+                        etq商店最好的基础知识
+                    </p>
+                    <h2 class="summer">
+                        夏天即将结束，但这并不意味着
+                        <br>
+                        你必须投资新一季的衣橱。
+                    </h2>
+                    <p class="Read">
+                        <a href="../html/page1-bk3-1.html" class="xianWu">读故事</a>
+                    </p>
+                    <img src="../img/hurui8.jpg" class="col-lg-6 img-div1">
+                    <img src="../img/hurui9.jpg"  class="col-lg-6 img-div1">
+                    <!--图下文字-->
+                    <div class="col-lg-12 row">
+                        <!--左-->
+                        <p class="col-lg-5 fontJianjie1 img-div2">
+                            沙色绒面革
+                            <br>
+                            本季的两款冬季款式采用柔和色调，由宽广的色谱组成......
+                            <br>
+                            <br>
+                            读故事
+                        </p>
+                        <!--右-->
+                        <p class="col-lg-6 col-lg-offset-1  fontJianjie2 img-div2">
+                            关于材料：原始绝对羊毛
+                            <br>
+                            本季根植于耐用材料的使用。除了专注于......的发展
+                            <br>
+                            <br>
+                            读故事
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--板块4-->
+    <div class="div-pd1" id="div3">
+        <div class="container-fluid">
+            <div class="row">
+                <div>
+                    <!--小板块1-->
+                    <div class="col-lg-4">
+                        <img src="../img/hurui10.jpg" class="col-lg-6">
+                        <p class="col-lg-6 fontJianjie4 fontJianjie2">
+                            <strong>冬季更新：针织</strong>
+                            <br>
+                            上一季，我们打算用......制作运动鞋设计
+                            <br>
+                            <br>
+                            读故事
+                        </p>
+                    </div>
+                    <!--小板块2-->
+                    <div class="col-lg-4">
+                        <img src="../img/hurui11.jpg" class="col-lg-6">
+                        <p class="col-lg-6 fontJianjie4 fontJianjie2">
+                            <strong>从脚趾向上：女式系带靴</strong>
+                            <br>
+                            我们的第一款女性系带靴子及时赶到......
+                            <br>
+                            <br>
+                            读故事
+                        </p>
+                    </div>
+                    <!--小板块3-->
+                    <div class="col-lg-4">
+                        <img src="../img/hurui12.jpg" class="col-lg-6">
+                        <p class="col-lg-6 fontJianjie4 fontJianjie2">
+                            <strong>FW18预览 - PT01</strong>
+                            <br>
+                            对于2018秋冬，我们坚持我们的核心原则......
+                            <br>
+                            <br>
+                            读故事
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <ul class="col-lg-offset-5 col-lg-2">
+                <li><a href="page1.html" class="xianWu">1</a></li>
+                <li><a href="page2.html" class="xianWu">2</a></li>
+                <li><a href="page3.html" class="xianWu">3</a></li>
+                <li><a href="page4.html" class="xianWu">4</a></li>
+                <li><a href="page2.html" class="xianWu"> > </a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<script src="../js/page1.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+</body>
+</html>

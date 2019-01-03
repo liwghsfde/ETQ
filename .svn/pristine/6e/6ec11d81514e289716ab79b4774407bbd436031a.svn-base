@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>新收藏</title>
+    <link rel="stylesheet" href="../css/newCollection.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div>
+    <span id="guolv">过滤<i class="fas fa-angle-down"></i></span>
+</div>
+<div class="clear"></div>
+<div id="body" class="container-fluid">
+    <div class="row" id="header1">
+        <div id="headerLeft" class="col-xs-6">
+            <div id="headerText">
+                <span id="headerT">新系列</span>
+                <p id="headerP">一系列深思熟虑的男士ETQ款式。高端设计产品，质量上乘，美观。</p>
+            </div>
+            <div class="row" id="headerSm">
+                <div class="col-xs-6 sm-All" id="sm1">
+                    <div id="smImg1" class="smImg">
+                        <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                        <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="smText">
+                        <a href="shopping.html"><p class="shoesColor"><span>CB 01</span>干邑</p></a>
+                        <p class="shoesPrice">€ 227.27</p>
+                    </div>
+                </div>
+                <div class="col-xs-6 sm-All" id="sm2">
+                    <div id="smImg2" class="smImg">
+                        <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                        <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="smText">
+                        <p class="shoesColor"><span>CB 01</span>烟草</p>
+                        <p class="shoesPrice">€ 227.27</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6" id="bigImg1">
+            <div id="bigImg1-1"></div>
+        </div>
+    </div>
+    <div class="height15 row">
+        <div class="col-xs-3 sm-All" id="sm3">
+            <div id="smImg3" class="smImg">
+                <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+            </div>
+            <div class="smText">
+                <p class="shoesColor"><span>CB 01</span>灰</p>
+                <p class="shoesPrice">€ 227.27</p>
+            </div>
+        </div>
+        <div class="col-xs-3 sm-All" id="sm4">
+            <div id="smImg4" class="smImg">
+                <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+            </div>
+            <div class="smText">
+                <p class="shoesColor"><span>CB 01</span>黑色</p>
+                <p class="shoesPrice">€ 214.88</p>
+            </div>
+        </div>
+        <div class="col-xs-3 sm-All" id="sm5">
+            <div id="smImg5" class="smImg">
+                <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+            </div>
+            <div class="smText">
+                <p class="shoesColor"><span>LT 03</span>科技暗栗色</p>
+                <p class="shoesPrice">€ 206.61</p>
+            </div>
+        </div>
+        <div class="col-xs-3 sm-All" id="sm6">
+            <div id="smImg6" class="smImg">
+                <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+            </div>
+            <div class="smText">
+                <p class="shoesColor"><span>LT 03</span>技术橄榄色</p>
+                <p class="shoesPrice">€ 206.61</p>
+            </div>
+        </div>
+    </div>
+    <div id="height30" class="row">
+        <div id="bigImg2" class="col-xs-6">
+
+        </div>
+        <div class="col-xs-6" id="thirdSm">
+            <div class="col-xs-6 sm-All1" id="sm7">
+                <div id="smImg7" class="smImg1">
+                    <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                    <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="smText">
+                    <p class="shoesColor"><span>MT 02</span>科技暗栗色</p>
+                    <p class="shoesPrice">€ 219.01</p>
+                </div>
+            </div>
+            <div class="col-xs-6 sm-All1" id="sm8">
+                <div id="smImg8" class="smImg1">
+                    <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                    <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="smText">
+                    <p class="shoesColor"><span>MT 02</span>技术橄榄色</p>
+                    <p class="shoesPrice">€ 219.01</p>
+                </div>
+            </div>
+            <div class="col-xs-6 sm-All1" id="sm9">
+                <div id="smImg9" class="smImg1">
+                    <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                    <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="smText">
+                    <p class="shoesColor"><span>HT 02</span>科技暗栗色</p>
+                    <p class="shoesPrice">€ 231.41</p>
+                </div>
+            </div>
+            <div class="col-xs-6 sm-All1" id="sm10">
+                <div id="smImg10" class="smImg1">
+                    <div class="leftBtn"><i class="fas fa-angle-left"></i></div>
+                    <div class="rightBtn"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="smText">
+                    <p class="shoesColor"><span>HT 02</span>技术橄榄色</p>
+                    <p class="shoesPrice">€ 231.41</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="turnPage" class="row">
+        <div>
+            <a><i class="fas fa-angle-left"></i></a>
+            <span>1</span>
+            <a><i class="fas fa-angle-right"></i></a>
+        </div>
+    </div>
+    <div id="backTop"><i class="fas fa-angle-up"></i></div>
+</div>
+
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="../js/newCollection.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+const express=require("express");
+const studentController=require("../controller/stores"); //调用userController
+const router=express.Router();//调用express对象提供的路由方法获取路由对象
+const userController=require("../controller/userController");//用户控制
+
+router.get("/storesETQ",function (req,resp) {   //门店ejs
+    resp.render("storesETQ");
+});
+router.post("/myLogin.do",userController.postUser);//罗
+router.get("/ejs.do",function (req,resp) {//罗
+    resp.render("login")
+});
+router.post("/newuser.do",userController.newUser);
+
+router.post("/ShowAll.do",studentController.ShowAll);//查询所有
+
+router.get("/search.do",studentController.search); //搜索学生信息
+
+
+module.exports=router;

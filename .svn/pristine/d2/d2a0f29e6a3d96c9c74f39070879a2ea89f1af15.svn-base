@@ -1,0 +1,27 @@
+const db=require("../config/dbpoolconfig");//调用连接池
+const  zwDao=require("../dao/zwDao");//连接dao
+
+const zwController= {
+    getPagCustomization(req,resp){
+        let pageCount=18;
+        let currentPage=req.body.currentPage;
+        let sql="select * from productCustomization limit ?,?";
+        // console.log(currentPage)
+
+        db.connect(sql,[(currentPage-1)*pageCount,pageCount],(err,data)=>{
+            // console.log(data);
+            resp.send(data);
+        })
+    },
+    pagingCustomization(req,resp){
+        let pageCount=18;
+        db.connect("select count(*) as totalcount from productCustomization",[],(err,data)=>{
+            console.log(data[0].totalcount);
+            let result=Math.ceil(data[0].totalcount/pageCount);
+            result=String(result);
+            // console.log(typeof result);
+            resp.send(result);
+        })
+}
+};
+module.exports=zwController ;

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/songhuo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+<!--第一部分-->
+<div id="back1">
+    <img src="../img/meimei2.jpg" alt="">
+    <div id="free">
+        <input type="text" placeholder="Free shipping" id="input" ><i class="fas fa-search" id="color"></i>
+    </div>
+</div>
+<!--第二部分-->
+<br><br><br>
+<div>
+    <span id="jian"><i class="fas fa-angle-left"></i></span>
+    <a href="../html/information.html"><span id="return">返回</span></a>
+</div>
+<div>
+    <span id="song">送货信息</span>
+    <span id="kou">我们为所有订单提供全球免费送货服务。请在下面的矩阵中查看您的交货时间窗口。</span>
+    <!--详细-->
+     <div>
+         <span id="yu">区域</span>
+         <span id="fang">方法</span>
+         <span id="money">交钱</span>
+         <span id="ji">交货窗口</span>
+         <hr class="hr">
+     </div>
+    <div>
+        <span id="he">荷兰，比利时和卢森堡</span>
+        <span id="fa">发布NL</span>
+        <span id="zi">自由</span>
+        <span id="ti">1 - 2天</span>
+        <hr class="hr1">
+    </div>
+    <div>
+        <span id="he1">欧洲</span>
+        <span id="fa1">DPD - 标准	</span>
+        <span id="zi1">自由</span>
+        <span id="ti1">15天</span>
+        <hr class="hr2">
+    </div>
+    <div>
+        <span id="he2">世界其他地区</span>
+        <span id="fa2">联邦快递标准</span>
+        <span id="zi2">自由</span>
+        <span id="ti2">3 - 10天</span>
+        <hr class="hr3">
+    </div>
+</div>
+<!--页尾-->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="../img/yewei.png" alt="">
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/songhuo.js"></script>
+</body>
+</html>

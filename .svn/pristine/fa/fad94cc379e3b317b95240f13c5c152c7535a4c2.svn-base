@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/productCustomization_nan.css">
+</head>
+<body>
+<div class="divLeft">
+    <div class="divLeft_logo">
+
+    </div>
+    <div class="divLeft_sex">
+        <h2 data-filter="all">系列</h2>
+        <P class="active" data-filter="1" >Essence系列</P>
+        <P data-filter="2">CB系列</P>
+        <P data-filter="3">MT系列</P>
+
+        <h2>材质</h2>
+        <P data-filter="1" >天然材质</P>
+        <P data-filter="2" >PU革材质</P>
+        <P data-filter="3" >超细纤维材质</P>
+
+        <h2>颜色</h2>
+        <div class="DivColor">
+            <div class="divBS"></div>
+            <div class="divHS"></div>
+            <div class="divRed"></div>
+            <div class="divLS"></div>
+            <div class="divNS"></div>
+            <div class="divYS"></div>
+            <div class="divCS"></div>
+            <div class="divQS"></div>
+            <div class="divCS1"></div>
+            <div class="divCS2"></div>
+            <div class="divCS3"></div>
+            <div class="divCS4"></div>
+            <div class="divCS5"></div>
+            <div class="divCS6"></div>
+            <div class="divCS7"></div>
+            <div class="divCS8"></div>
+            <div class="divCS9"></div>
+        </div>
+
+        <h2>尺码</h2>
+        <table class="divTable">
+            <tr>
+                <td>36.5</td>
+                <td>37</td>
+                <td>37.5</td>
+                <td>38</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>41</td>
+                <td>42</td>
+                <td>43</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>44.5</td>
+                <td>45</td>
+                <td>45.5</td>
+                <td>46</td>
+                <td>46.5</td>
+            </tr>
+            <tr>
+                <td>47</td>
+                <td>47.5</td>
+                <td>48</td>
+                <td>48.5</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <td>49.5</td>
+                <td>50</td>
+                <td>51</td>
+                <td>52</td>
+                <td>36</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="divRight">
+    <div class="divRight_Top">
+        <h1>男鞋特别定制</h1>
+    </div>
+
+    <div class="divRight_bottom jq22">
+        <div class="divRight_img filter-item" data-category="2">
+            <img src="../images/smImg01%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="2">
+            <img src="../images/smImg02%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="1">
+            <img src="../images/smImg03%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="3">
+            <img src="../images/smImg04%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="3">
+            <img src="../images/smImg05%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="1">
+            <img src="../images/smImg06%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="3">
+            <img src="../images/smImg07%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="1">
+            <img src="../images/smImg08%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="3">
+            <img src="../images/smImg09%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="1">
+            <img src="../images/smImg10%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="3">
+            <img src="../images/smImg07%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="1">
+            <img src="../images/smImg06%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="1">
+            <img src="../images/smImg04%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="3">
+            <img src="../images/smImg05%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+        <div class="divRight_img filter-item" data-category="2">
+            <img src="../images/smImg06%20(1).jpg" alt="">
+            <p>CB O1 干邑</p>
+            <h6>$500</h6>
+        </div>
+    </div>
+</div>
+
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery.filterizr.js"></script>
+<script>
+    $(function () {
+        $(".jq22").filterizr({
+            filter: 1
+        });
+
+        $(".divLeft_sex p").on("click",function () {
+            $(this).toggleClass('active').siblings().removeClass('active');
+        });
+    });
+    
+</script>
+</body>
+</html>

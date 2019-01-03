@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/yewei.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--<![endif]&ndash;&gt;-->
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <div id="bgs">
+    </div>
+    <div id="search" class="dd">
+        <div class="logo2">
+            <span style="z-index: 999">E T Q .</span>
+            <button onclick="end()" class="end">X</button>
+        </div>
+        <div>
+            <br>
+            <br>
+            <input type="text" placeholder="Start typing what you're looking for">
+        </div>
+        <div class="jianyi">
+            <p>建议:</p>
+            <button class="link-1 xiahua" >
+                <a href="#" class="demo1">
+                    <span class="thin2">新收藏</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua" >
+                <a href="#" class="demo1">
+                    <span class="thin2">新收藏</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua" >
+                <a href="#" class="demo1">
+                    <span class="thin2">新收藏</span>
+                </a>
+            </button>
+            <button class="link-1 xiahua" >
+                <a href="#" class="demo1">
+                    <span class="thin2">新收藏</span>
+                </a>
+            </button>
+        </div>
+    </div>
+    <div id="help" class="dd">
+        <div class="logo2">
+            <span>E T Q .</span>
+            <button onclick="end()" class="end">X</button>
+        </div>
+        <div class="helpson">
+            <div>
+                <p>练习</p>
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">电邮我们</span>
+                    </a>
+                </button>
+                <br>
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">+31（0）202 615 614</span>
+                    </a>
+                </button>
+               <p>目前发货到中国</p>
+            </div>
+            <div>
+                <p>信息</p>
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">送货信息</span>
+                    </a>
+                </button>
+                <br>
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">退货和换货</span>
+                    </a>
+                </button>
+                <br>
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">尺码指南</span>
+                    </a>
+                </button>
+                <br>
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">批发和陈列室</span>
+                    </a>
+                </button>
+            </div>
+            <div>
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">经常问的问题</span>
+                    </a>
+                </button>
+                <br>
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">我需要一个帐户来下订单吗？</span>
+                    </a>
+                </button>
+                <br>
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">我如何退货或换货？</span>
+                    </a>
+                </button>
+                <br>
+
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">你送货到我的国家吗？</span>
+                    </a>
+                </button>
+                <br>
+
+                <button class="link-1 xiahua">
+                    <a href="#" class="demo1">
+                        <span class="thin2">交货费用是多少？</span>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="login">
+        <form action="">
+            <p>电子邮件地址*</p>
+            <input type="text">
+            <br>
+            <br>
+            <p>密码*</p>
+            <input type="password">
+            <br>
+            <br>
+            <span>忘记密码</span>
+            <hr>
+          <div id="denglu">
+              <div class="zhuce">
+                  <button class="dengdeng1">注册</button>
+              </div>
+              <div>
+                  <button class="dengdeng">登陆</button>
+              </div>
+          </div>
+        </form>
+    </div>
+    <div id="gouwuche">
+        <p>你的购物车现在是空的</p>
+        <hr>
+                <button class="jiezhang anniu">结账</button>
+                <button class="chakan anniu">查看包</button>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav id="nav">
+                    <ul>
+                        <li class="toutou logo"><span>E T Q .</span></li>
+                        <li class="one toutou" id="one">
+                            <button class="link-1 xiahua" >
+                                <a href="newCollection.html" class="demo1">
+                                    <span class="thin1">新收藏</span>
+                                </a>
+                            </button>
+                            <ul>
+                                <li>
+                                    <div class="oneson" id="oneson">
+                                        <div id="zuo" class="tutufather tutufather11">
+                                            <div class="tu11 tutu "></div>
+                                            <br>
+                                            <!--<br>-->
+                                            <button class="link-1 xiahua">
+                                                <a href="#" class="demo1">
+                                                    <span class="thin1">懒人素材</span>
+                                                </a>
+                                            </button>
+                                            <p>免费全球送货</p>
+                                        </div>
+                                        <div class="tutufather">
+                                            <div class="tu22 tutu"></div>
+                                            <br>
+                                            <p>商店女装</p>
+                                            <p>免费全球送货</p>
+                                        </div>
+                                        <div class="tutufather">
+                                            <div class="tu33 tutu"></div>
+                                            <br>
+                                            <p>永久收藏</p>
+                                            <p>免费全球送货</p>
+                                        </div>
+                                        <div class="tutufather">
+                                            <div class="tu44 tutu"></div>
+                                            <br>
+                                            <p>切尔西鞋子</p>
+                                            <p>免费全球送货</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li  class="toutou">
+                            <button class="link-1 xiahua">
+                                <a href="newCollection.html" class="demo1">
+                                    <span class="thin1">永久收藏</span>
+                                </a>
+                            </button>
+                        </li>
+                        <li class="two toutou" id="two">
+                            <button class="link-1 xiahua">
+                                <a href="page1.html" class="demo1">
+                                    <span class="thin1">期刊</span>
+                                </a>
+                            </button>
+                            <ul>
+                                <li id="thetwo">
+                                    <div class="twoson tutufather tutufather1" id="twoson">
+                                        <div id="zuo2">
+                                            <div class="tu1 tutu"></div>
+                                            <br>
+                                            <button class="link-1 xiahua">
+                                                <a href="page2.html" class="demo1">
+                                                    <span class="thin1">我们的永久收藏解释</span>
+                                                </a>
+                                            </button>
+                                            <p>2018年7月31日</p>
+                                        </div>
+                                        <div class="tutufather">
+                                            <div class="tu2 tutu"></div>
+                                            <br>
+                                            <button class="link-1 xiahua">
+                                                <a href="page1-bk2-3.html" class="demo1">
+                                                    <span class="thin1">探索沙色绒面革</span>
+                                                </a>
+                                            </button>
+                                            <p>2018年7月31日</p>
+                                        </div>
+                                        <div class="tutufather">
+                                            <div class="tu3 tutu"></div>
+                                            <br>
+                                            <button class="link-1 xiahua">
+                                                <a href="page1-bk2-2.html" class="demo1">
+                                                    <span class="thin1">材质：防水正绒面革</span>
+                                                </a>
+                                            </button>
+                                            <p>2018年7月31日</p>
+                                        </div>
+                                        <div class="tutufather">
+                                            <div class="tu4 tutu"></div>
+                                            <br>
+                                            <button class="link-1 xiahua">
+                                                <a href="page1-bk1-2.html" class="demo1">
+                                                    <span class="thin1">秋季天气的基本风格</span>
+                                                </a>
+                                            </button>
+                                            <p>2018年7月31日</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="toutou">
+                            <button class="link-1 xiahua">
+                                <a href="../html/productCustomization.html" class="demo1">
+                                    <span class="thin1">私人定制</span>
+                                </a>
+                            </button>
+                        </li>
+                        <li class="toutou">
+                            <button class="link-1 xiahua">
+                                <a href="../html/theDesigner.html" class="demo1">
+                                    <span class="thin1">品牌设计师</span>
+                                </a>
+                            </button>
+                        </li>
+                        <li class="toutou">
+                            <button class="link-1 xiahua">
+                                <a href="../html/storesETQ.html" class="demo1">
+                                    <span class="thin1">门店查询</span>
+                                </a>
+                            </button>
+                        </li>
+                        <li class="toutou sousuo">
+                            <button class="link-1 xiahua" id="sousuo">
+                                <a  class="demo1">
+                                    <span class="thin1">搜索</span>
+                                </a>
+                            </button>
+                        </li>
+                        <li class="toutou">
+                            <button class="link-1 xiahua" id="helpson">
+                                <a class="demo1">
+                                    <span class="thin1">帮助</span>
+                                </a>
+                            </button>
+                        </li>
+                        <li class="toutou">
+                            <button class="link-1 xiahua" id="myuser">
+                                <a class="demo1" href="login.html">
+                                    <span class="thin1">我的账户</span>
+                                </a>
+                            </button>
+                        </li>
+                        <li class="toutou">
+                            <div class="num"><span class="thin3">0</span></div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<section><!--轮播图-->
+    <!--<div class="jumbotron">&lt;!&ndash;巨幕&ndash;&gt;-->
+        <!--<div class="container">-->
+        <!--轮播内容-->
+        <div class="carousel slide" data-ride="carousel" data-interval="3000" id="myCarousel">
+            <!--小圆点-->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!--主体内容-->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="../images/lunbo-1.jpg" alt="">
+                    <div class="carousel-caption">限时优惠</div>
+                </div>
+                <div class="item">
+                    <img src="../images/lunbo-2.jpg" alt="">
+                    <div class="carousel-caption">购买新系列并且免运费</div>
+                </div>
+                <div class="item">
+                    <img src="../images/lunbo-3.jpg" alt="">
+                    <div class="carousel-caption">购买新系列并且免运费</div>
+                </div>
+            </div>
+        <!--</div>-->
+        <!--左右控制按钮-->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
+        <!--</div>-->
+    </div>
+</section>
+<section id="section2"><!--第二段-->
+<div class="sec2div">
+    <div class="sec2divson1"></div>
+    <p class="top"><a href="">ETQ女性</a></p>
+    <p><a href="newCollection.html">购买我们的系带靴等</a></p>
+</div>
+<div class="sec2div">
+   <div class="sec2divson2 "></div>
+    <p class="top"><a href="">ETQ女性</a></p>
+    <p><a href=newCollection.html"">购买我们的系带靴等</a></p>
+</div>
+<div class="sec2div">
+    <div class="sec2divson3"></div>
+    <p class="top"><a href="">ETQ女性</a></p>
+    <p><a href="newCollection.html">购买我们的系带靴等</a></p>
+</div>
+</section>
+<section id="section3">
+    <div class="sec3div">
+        <div class="sec3divson1"></div>
+        <p class="sec3p">永久收藏</p>
+        <p>发现我们的精华系列</p>
+    </div>
+    <div class="sec3div">
+        <div class="sec3divson2"></div>
+        <p class="sec3p"> 阿姆斯特丹旗舰店</p>
+        <p>精湛的服装,鞋类,和配饰经验</p>
+    </div>
+</section>
+<section id="section4">
+    <div id="ins"><img src="../images/ins.png" alt=""> Instastore</div>
+<div class="section4div">
+
+    <div class="sec4ivson1"></div>
+    <p class="sec3p">1天前</p>
+    <p>限时优惠：免费有机totebag每次购买都有一对ETQ。有效期至2018年12月1日 - 仅限ETQ，网上和店内：@etqstore</p>
+</div>
+<div class="section4div">
+    <div class="sec4ivson2"></div>
+    <p class="sec3p">7天前</p>
+    <p>秋季海滩编辑 - 6/6 | 以LT 05陆军参加赛车绿色，在线购物[链接生物]或@etqstore</p>
+</div>
+<div class="section4div">
+    <div class="sec4ivson3"></div>
+    <p class="sec3p">1周前</p>
+    <p>秋天海滩编辑 - 5/6 | 采用合金正绒面革的MT 02，在线购物[链接生物]或@etqstore</p>
+</div>
+<div class="section4div">
+    <div class="sec4ivson4"></div>
+    <p class="sec3p">2个星期前</p>
+    <p>秋天海滩编辑 - 4/6 | 以空间灰色的CB Tech为特色，在线购物[链接生物]或@etqstore</p>
+</div>
+</section>
+<footer id="footer">
+    <div class="wei">
+        <div class="guan">
+            <span class="guanYu">关于</span>
+            <br>
+            <br>
+            <span class="etq">ETQ成立于2010年，位于阿姆斯特丹，在消除过度配饰品牌的心态下，主要致力于让产品质量不言而喻。<a href="readMore.html" class="read">阅读更多</a> </span>
+        </div>
+        <div class="di">
+            <span class="diZhi">地址</span>
+            <br>
+            <br>
+            <span class="singel">Singel 459
+            <br> 1012 WP阿姆斯特丹
+            <br> 荷兰</span>
+        </div>
+        <div class="lian">
+            <span class="lianXi">联系</span>
+            <br>
+            <br>
+            <a href="mailto:info@etqstore.com" class="xianWu">info@etqstore.com</a>
+            <br>
+            <a href="tel:+31（0）20 26 13 815" class="xianWu" >+31（0）20 26 13 815</a>    </div>
+        <div class="xin">
+            <span class="xinXi">信息</span>
+            <br>
+            <br>
+            <a href="songhuo.html" class="xianWu">送货信息</a><br>
+            <a href="readMore.html" class="xianWu">联系</a><br>
+            <a href="profession.html" class="xianWu">职业</a><br>
+        </div>
+        <div class="gen">
+            <span class="genZhe">跟着我们</span>
+            <br>
+            <br>
+            <a href="#" class="xianWu">lnsatgram</a><br>
+            <a href="#" class="xianWu">Facebook</a><br>
+            <a href="#" class="xianWu">Tumblr</a><br>
+        </div>
+    </div>
+    <div class="wei2">
+        <div class="tong">
+            <span>通讯</span><input type="text" name="communication">
+            <span class="ti" >提交</span>
+        </div>
+        <div class="lou">
+            <img src="../images/ideal.png" alt="">
+            <img src="../images/paypal.png" alt="">
+            <img src="../images/mastercard.png" alt="">
+            <img src="../images/visa.png" alt="">
+            <img src="../images/klarna.png" alt="">
+        </div>
+        <div class="tiao">
+            <a href="terms.html" class="xianWu">条款和条件</a> &nbsp;
+            <a href="Privacy.html" class="xianWu">隐私申明</a>
+        </div>
+    </div>
+</footer>
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/yewei.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/jquery-1.11.3.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script src="../js/header.js"></script>
+</body>
+</html>

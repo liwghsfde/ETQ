@@ -1,0 +1,13 @@
+const express=require("express");
+const yhController=require("../controller/yhController"); //调用userController
+const router=express.Router();//调用express对象提供的路由方法获取路由对象
+
+router.get("/newCollection",function (req,resp) {   //新收藏ejs
+    resp.render("newCollection");
+});
+router.get("/aa.do",yhController.aa);
+router.get("/goodsname.do",yhController.goodsname);
+router.get("/goodscolor.do",yhController.goodscolor);
+router.get("/goodsprice.do",yhController.goodsprice);
+
+module.exports=router;

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/MyIndex.css">
+    <link rel="stylesheet" href="../css/yewei.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--<![endif]&ndash;&gt;-->
+</head>
+<body>
+<%-include('common/nav.ejs')%>
+<section>
+    <div class="myDivLeft">
+        <div class="myDivLeft_1">
+            <h1>我的账户</h1>
+        </div>
+        <div class="myDivLeft_2">
+            <p>联系信息</p>
+            <p>地址谱</p>
+            <p>命令</p>
+            <p><a href="/esc">登出</a></p>
+        </div>
+    </div>
+    <div class="myDivRight">
+        <div class="myDivRight_1">
+            <h1>欢迎:     <span><%=username%></span></h1>
+            <P>在这里，您可以跟踪您最近的活动，请求您收到的订单的退货/换货授权，<br>以及查看和编辑您的帐户信息或收藏项目列表。</P>
+            <a href="#">联系</a>
+        </div>
+        <div class="myDivRight_2">
+            <h1>联系信息</h1>
+            <div class="divP">
+                <p>姓名: <span id="myname"></span></p>
+                <p>邮箱: <span id="myemail"></span></p>
+            </div>
+            <a href="/MyindexBJ" class="xianWu">编辑信息</a><br>
+            <a href="/MyindexBJ" class="xianWu">更改密码</a>
+        </div>
+        <hr>
+        <div class="myDivRight_1">
+            <h1>地址</h1>
+            <a href="/MyindexBJDZ" class="xianWu">编辑地址</a>
+        </div>
+        <div class="myDivRight_2">
+            <h1></h1>
+            <div class="divP">
+                <p>收件地址</p>
+                <br>
+                <span id="shoujian"></span>
+            </div>
+            <a href="/MyindexBJDZ" class="xianWu">添加地址</a><br>
+        </div>
+        <hr>
+        <div class="myDivRight_1">
+            <h1>命令</h1>
+            <P>你目前没有订单</P>
+        </div>
+
+        <div class="myDivRight_1">
+        </div>
+        <hr>
+    </div>
+
+</section>
+<footer id="footer">
+    <div class="wei">
+        <div class="guan">
+            <span class="guanYu">关于</span>
+            <br>
+            <br>
+            <span class="etq">ETQ成立于2010年，位于阿姆斯特丹，在消除过度配饰品牌的心态下，主要致力于让产品质量不言而喻。<a href="/readMore" class="read">阅读更多</a> </span>
+        </div>
+        <div class="di">
+            <span class="diZhi">地址</span>
+            <br>
+            <br>
+            <span class="singel">Singel 459
+            <br> 1012 WP阿姆斯特丹
+            <br> 荷兰</span>
+        </div>
+        <div class="lian">
+            <span class="lianXi">联系</span>
+            <br>
+            <br>
+            <a href="mailto:info@etqstore.com" class="xianWu">info@etqstore.com</a>
+            <br>
+            <a href="tel:+31（0）20 26 13 815" class="xianWu" >+31（0）20 26 13 815</a>    </div>
+        <div class="xin">
+            <span class="xinXi">信息</span>
+            <br>
+            <br>
+            <a href="/songhuo" class="xianWu">送货信息</a><br>
+            <a href="/readMore" class="xianWu">联系</a><br>
+            <a href="/profession" class="xianWu">职业</a><br>
+        </div>
+        <div class="gen">
+            <span class="genZhe">跟着我们</span>
+            <br>
+            <br>
+            <a href="#" class="xianWu">lnsatgram</a><br>
+            <a href="#" class="xianWu">Facebook</a><br>
+            <a href="#" class="xianWu">Tumblr</a><br>
+        </div>
+    </div>
+    <div class="wei2">
+        <div class="tong">
+            <span>通讯</span><input type="text" name="communication">
+            <span class="ti" >提交</span>
+        </div>
+        <div class="lou">
+            <img src="../images/ideal.png" alt="">
+            <img src="../images/paypal.png" alt="">
+            <img src="../images/mastercard.png" alt="">
+            <img src="../images/visa.png" alt="">
+            <img src="../images/klarna.png" alt="">
+        </div>
+        <div class="tiao">
+            <a href="/terms" class="xianWu">条款和条件</a> &nbsp;
+            <a href="/Privacy" class="xianWu">隐私申明</a>
+        </div>
+    </div>
+</footer>
+<!--<script src="../js/yewei.js"></script>-->
+<script src="../bootstrap-3.3.5-dist/js/jquery-1.11.3.js"></script>
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<script src="../js/nav.js"></script>
+<script>
+    $(function () {
+        $.ajax({
+            type:"get",
+            url:"/geren.do",
+            data:$("#name").text(),
+            async:true,
+            success:function (data) {
+                console.log(data[0])
+                $("#myname").html(data[0].user_name);
+                $("#myemail").html(data[0].user_mail);
+            }
+        });
+        $.ajax({
+            type:"get",
+            url:"/gerendizhi.do",
+            async:true,
+            success:function (data) {
+                $("#shoujian").html(data[0].address);
+            }
+        })
+    })
+</script>
+</body>
+</html>

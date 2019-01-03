@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#back1{
+    background-image: url("../img/meimei3.png");
+    height: 250px;
+}
+#free{
+    width: 412px;
+    height: 40px;
+    /*background-color: white;*/
+    /*opacity: .1;*/
+    color: black;
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 34.5%;
+
+}
+#free input{
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 100%;
+    position: relative;
+    height: 100%;
+    border: none;
+    outline: none;
+    transition: all .5s linear;
+
+}
+#color{
+    color: black;  position: absolute;
+    left:86.7%;
+    z-index: 9999;
+    height: 20px;
+    width: 40px;
+    top: 10px;
+    transform: rotateY(180deg);
+}
+#hour{
+    cursor: pointer;
+    width:30px;
+}
+#jian{
+    font-size: 5px;
+    color: black;
+    font-weight: bolder;
+   margin-left: 3%;
+    transition: all .83s;
+}
+#jian1{
+    font-size: 5px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 3%;
+    display: none;
+}
+#hour123:hover #jian{
+    display: none;
+}
+#hour123:hover #jian1{
+    display: inline-block;
+}
+#return{
+    font-size: 14px;
+    color: #303030;
+    margin-left: 0.4%;
+}
+#song{
+    margin-left: 17%;
+    color: #303030;
+  position: absolute;
+    margin-top: -23px;
+}
+#kou{
+    margin-left: 17%;
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    margin-top: 22px;
+}
+#yu{
+    margin-left: 17%;
+    color: #303030;
+    position: absolute;
+    margin-top: 80px;
+}
+#fang{
+    margin-left: 43%;
+    color: #303030;
+    position: absolute;
+    margin-top: 80px;
+}
+#money{
+    margin-left: 51%;
+    color: #303030;
+    position: absolute;
+    margin-top: 80px;
+}
+#ji{
+    margin-left: 60%;
+    color: #303030;
+    position: absolute;
+    margin-top: 80px;
+}
+.hr{
+    width: 50%;
+    margin-left: 16%;
+    color: #8A99A2;
+    opacity: .3;
+    position: absolute;
+    margin-top: 150px;
+}
+.hr1{
+    width: 50%;
+    margin-left: 16%;
+    color: #8A99A2;
+    opacity: .3;
+    position: absolute;
+    margin-top: 200px;}
+.hr2{
+    width: 50%;
+    margin-left: 16%;
+    color: #8A99A2;
+    opacity: .3;
+    position: absolute;
+    margin-top: 245px;
+}
+.hr3{
+    width: 50%;
+    margin-left: 16%;
+    color: #8A99A2;
+    opacity: .3;
+    position: absolute;
+    margin-top: 295px;
+}
+.h2{
+    width: 50%;
+    margin-left: 16%;
+    color: #8A99A2;
+    opacity: .3;
+    position: absolute;
+    margin-top: 250px;}
+
+#he{
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 17%;
+}
+#he1{
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 17.2%;
+}
+#he2{
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 17.2%;
+}
+#fa{
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 43%;
+}
+#fa1{
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 43.2%;
+}
+#fa2{
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 43.4%;
+}
+#zi{
+    margin-left: 51.7%;
+    color: #303030;
+    position: absolute;
+    margin-top: 170px; font-size: 14px;
+}
+#zi1{
+    margin-left: 51.7%;
+    color: #303030;
+    position: absolute;
+    margin-top: 215px; font-size: 14px;
+}
+#zi2{
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 51.7%;
+}
+#ti{
+    margin-left: 61.7%;
+    color: #303030;
+    position: absolute;
+    margin-top: 170px; font-size: 14px;
+}
+#ti1{
+    margin-left: 62.9%;
+    color: #303030;
+    position: absolute;
+    margin-top: 215px; font-size: 14px;
+}
+#ti2{
+    margin-left: 61.9%;
+    color: #303030;
+    position: absolute;
+    margin-top: 270px; font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

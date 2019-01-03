@@ -1,0 +1,10 @@
+const db=require("../config/dbpoolconfig");
+const  storeDao= {
+    DaoAll(params,callback){
+        db.connect("select * from stores",
+            params,(err,data)=>{
+                callback(data);
+            })
+    }
+};
+module.exports= storeDao;
